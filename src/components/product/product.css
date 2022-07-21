@@ -1,0 +1,15 @@
+
+
+.p {
+    width: 50%;
+    height: 50vh;
+    margin: 50px;
+    overflow: scroll;
+    border : 2px solid rgb(183, 226, 226);
+    border-radius: 10px;
+}
+
+/* .p-browser {
+    height: 20px;
+    background-color: rgb(161, 202, 202);
+} */
