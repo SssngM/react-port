@@ -17,8 +17,11 @@ import sketches from "../../img/sketches.jpg"
 
 export const Productlist = () => {
   return (
+    
     <div className='pl'>
+      <h3 className= 'port'> PROJECTS </h3>
       <div className='p-list'>
+
       {/* {products.map((item) => (
           <Product key={item.id} img={item.img} link={item.link} />
         ))} */}
@@ -58,9 +61,9 @@ export const Productlist = () => {
       <div className='p-list'>
         <Product img={sketches}/>
      <div className ='p-des'>
-     <h2 className = 'p-title'> "Sketches" </h2>
+     <h2 className = 'p-title'> "Design Thinking" </h2>
               <div> with Figma, </div>
-              <div> water color pencils, markers, pen.</div>
+              <div> Color pencils, Markers, Pen.</div>
           </div>
 
 

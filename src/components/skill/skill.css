@@ -1,0 +1,27 @@
+.k {
+    height: 100vh;
+    width: auto;
+    text-align: center;
+}
+
+
+.k-title {
+    font-size: 20px;
+    text-align: center;
+}
+
+/* .k-circle {
+    height: 70px;
+    width: 70PX;
+   
+    border : 2px solid rgb(183, 226, 226);
+    border-radius: 50%;
+    display: inline-block;
+    margin: 2%;
+    overflow: hidden;
+} */
+
+.img {
+    height: 50%;
+    width: 50%;
+}

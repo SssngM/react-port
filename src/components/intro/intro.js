@@ -1,7 +1,7 @@
 import React from 'react'
 import "./intro.css"
-import Introimg from "../../img/introimg4.jpg"
-import Intropic from "../../img/intro-pic.jpg"
+import Introimg from "../../img/introimg5.jpg"
+
 
 function Intro(props) {
   return (
@@ -10,8 +10,8 @@ function Intro(props) {
             <div className="i-left-wrapper">
                 <h1 className='i-name'> Seung Yoo</h1>
                 <div className="i-title"> 
-                <div className="title-item">Based in San Francisco, </div>
-                <div className="title-item">a UI & Front-end Engineer. </div>
+                 <div className="title-item">Based in San Francisco, </div>
+                 <div className="title-item">a UI & Front-end Engineer. </div>
                 </div>
          
         </div>

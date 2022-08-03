@@ -13,7 +13,7 @@
 
 
 .i-left-wrapper{
-    padding: 5%;
+    padding: 10%;
     margin-left: 280px;
     margin-right: auto;
     margin-top:50px;
@@ -23,12 +23,13 @@
     font-size: 50px;
 }
 
-.i-title {
-    height: 50px;
-}
+/* .i-title {
+    height: 60px;
+} */
 .title-item {
-    font-size: 30px;
+    font-size: 20px;
     font-weight: 300;
+    height: 30px;
 }
 
 .i-right{
@@ -40,12 +41,12 @@
 .intro-img{
     display: block;
     /* padding: 5%; */
-    margin-top: 5%;
-    margin-left:40%;
+    margin-top: 20%;
+    margin-left:20%;
 
     align-items: center;
-    width: 25%;
-    height: 70%;
+    width: 30%;
+    height: 40%;
 }
 
 
