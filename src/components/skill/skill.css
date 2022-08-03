@@ -1,5 +1,5 @@
 .k {
-    height: 100vh;
+    height: 50vh;
     width: auto;
     text-align: center;
 }
@@ -8,6 +8,7 @@
 .k-title {
     font-size: 20px;
     text-align: center;
+    margin: 3%;
 }
 
 /* .k-circle {
@@ -21,7 +22,15 @@
     overflow: hidden;
 } */
 
-.img {
-    height: 50%;
-    width: 50%;
+
+
+.k-contact {
+    height: 20vh;
+    font-size: 20px;
+    display: flex;
+    margin: 0% 40%;
+    justify-content: space-evenly;
+    /* text-align: center;
+    align-items: center; */
+
 }

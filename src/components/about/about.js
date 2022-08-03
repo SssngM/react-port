@@ -17,12 +17,14 @@ export default function About() {
           <div className="a-left-wrapper" > skech and design </div>
           <div className="a-left-title">Front-end Engineer </div> 
           <div className="a-left-wrapper" > wireframe for user  </div>
-          </div>
+           </div>
  
           <div className="a-right"> 
              <img src={Aboutme} className="imgme"/>
           </div>
-        </div>    
+        </div>  
+        <div className="a-desc" > Previous job was a content designer and switching to be an front-end engineer.  Like meeting, learning,   studying  and collaborating with others. Set up study groups multiple times for React, Data structure algorithm and toy projects. </div>
+           
     </div>
   )
 }

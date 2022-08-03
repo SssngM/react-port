@@ -10,6 +10,12 @@
 }
 
 .k-img img {
+    margin:5% 0%;
     height: 70px;
     width: 65px;
+}
+
+.k-contact img {
+    height: 50px;
+    width: 50px;
 }
