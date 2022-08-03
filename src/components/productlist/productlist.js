@@ -4,6 +4,8 @@ import Product from "../product/product"
 import { products } from "../../data";
 import sweet from "../../img/sweet-store.png"
 import todolist from "../../img/todolist.png"
+import sketches from "../../img/sketches.jpg"
+
 
 
 // console.log(products[0].img)
@@ -28,14 +30,42 @@ export const Productlist = () => {
         </a> */}
 
 
-          <Product img={todolist} src="https://github.com/SssngM/TodoList-2022 "/>
+          <Product img={todolist} />
+        
+          <div className ='p-des'>
+              <h2 className = 'p-title'> "To Do List Project" </h2>
+              <div>with Javscript, React.</div>
+              <div>log in, add, edit, delete funtions</div>
+
+              <a href="https://github.com/SssngM/TodoList-2022" rel="noopener noreferrer"> github code </a>
+          </div>
+
+
+
+      </div>
+
+     <div className='p-list'>
+     <div className ='p-des'>
+     <h2 className = 'p-title'> "Sweet Store Project" </h2>
+              <div>with Javscript, React.</div>
+              <div> Router,Boostrap,Cart funtions</div>
+              <a href="https://your-sweets.netlify.app" rel="noopener noreferrer"> site </a>
+          </div>
           <Product img={sweet}/>
 
       </div>
-      {/* <div className='p-list2'>
-      <Product/> 
 
-      </div> */}
+      <div className='p-list'>
+        <Product img={sketches}/>
+     <div className ='p-des'>
+     <h2 className = 'p-title'> "Sketches" </h2>
+              <div> with Figma, </div>
+              <div> water color pencils, markers, pen.</div>
+          </div>
+
+
+      </div>
+
 
     </div>
   )
