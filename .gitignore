@@ -5,6 +5,10 @@
 /.pnp
 .pnp.js
 
+#img folder ignore
+img/
+
+
 # testing
 /coverage
 
