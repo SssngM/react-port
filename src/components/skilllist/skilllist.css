@@ -6,11 +6,11 @@
     border-radius: 50%;
     display: inline-block;
     margin: 2%;
-    overflow: scroll;
+    overflow: hidden;
 }
 
 .k-img img {
-    margin:5% 0%;
+    margin:5%;
     height: 70px;
     width: 65px;
 }
