@@ -14,16 +14,16 @@ export default function About() {
             <div >  of Tech Girls Social (in SF) </div>                
             <div className="a-left-wrapper">with diversity equity & inclusion</div>
           <div className="a-left-title">Design Thinker </div> 
-          <div className="a-left-wrapper" > skech and design </div>
+          <div className="a-left-wrapper" > Hand Drawing and design </div>
           <div className="a-left-title">Front-end Engineer </div> 
-          <div className="a-left-wrapper" > wireframe for user  </div>
+          <div className="a-left-wrapper" > wireframe for users  </div>
            </div>
  
           <div className="a-right"> 
              <img src={Aboutme} className="imgme"/>
           </div>
         </div>  
-        <div className="a-desc" > Previous job was a content designer and switching to be an front-end engineer.  Like meeting, learning,   studying  and collaborating with others. Set up study groups multiple times for React, Data structure algorithm and toy projects. </div>
+        <div className="a-desc" > Previous job was a content designer and switching to be an front-end engineer.  Like meeting, learning,   studying  and collaborating with others. Set up study groups multiple times for React, Data structure algorithm and toy projects. Currently valunteer working with Tech Girls Social's web-site as UX/UI and Front-end role. </div>
            
     </div>
   )

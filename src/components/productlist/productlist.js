@@ -4,9 +4,8 @@ import Product from "../product/product"
 import { products } from "../../data";
 import sweet from "../../img/sweet-store.png"
 import todolist from "../../img/todolist.png"
-import sketches from "../../img/sketches.jpg"
-
-
+import designthinking from "../../img/Techgirls3.png"
+// import designthinking from "../../img/Techgirls2.png"
 
 // console.log(products[0].img)
 // const sweet = "../img/sweet-store.png"
@@ -59,11 +58,12 @@ export const Productlist = () => {
       </div>
 
       <div className='p-list'>
-        <Product img={sketches}/>
+        <Product img={designthinking}/>
      <div className ='p-des'>
-     <h2 className = 'p-title'> "Design Thinking" </h2>
-              <div> with Figma, </div>
-              <div> Color pencils, Markers, Pen.</div>
+     <h2 className = 'p-title'> "Tech Girls Social" </h2>
+              <div> with Drawing, Figma, React. </div>
+              <div> valunteer working for the website </div>
+              <div> as ux/ui and front-end role.</div>
           </div>
 
 
