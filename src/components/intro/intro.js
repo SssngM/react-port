@@ -1,6 +1,6 @@
 import React from 'react'
 import "./intro.css"
-import Introimg from "../../img/intro.jpg"
+import Introimg from "../../img/intromac1.jpg"
 
 
 function Intro(props) {
