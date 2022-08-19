@@ -62,7 +62,7 @@ export const Productlist = () => {
      <div className ='p-des'>
      <h2 className = 'p-title'> "Tech Girls Social" </h2>
               <div> with Drawing, Figma, React. </div>
-              <div> valunteer working for the website </div>
+              <div> building this website </div>
               <div> as ux/ui and front-end role.</div>
           </div>
 

@@ -23,7 +23,7 @@ export default function About() {
              <img src={Aboutme} className="imgme"/>
           </div>
         </div>  
-        <div className="a-desc" > Previous job was a content designer and switching to be an front-end engineer.  Like meeting, learning,   studying  and collaborating with others. Set up study groups multiple times for React, Data structure algorithm and toy projects. Currently valunteer working with Tech Girls Social's web-site as UX/UI and Front-end role. </div>
+        <div className="a-desc" > Previous job was a content designer and switching to be an front-end engineer.  Like meeting, learning,   studying  and collaborating with others. Set up study groups multiple times for React, Data structure algorithm and toy projects. Currently building a website for the Tech Girls Social group as volunteer work. </div>
            
     </div>
   )
