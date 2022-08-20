@@ -1,17 +1,17 @@
 import React from 'react'
 import "./skill.css"
 import Skilllist from "../skilllist/skilllist"
-import html5  from "../../img/html.png"
-import css from "../../img/css.png"
-import javascript from "../../img/javascript-logo.png"
-import reactlo from "../../img/reactlogo.png"
-import figma from "../../img/figma.png"
-import github from "../../img/git.png"
-import pythonlo from "../../img/pythonlogo.png"
-import flasklo from "../../img/flask.png"
-import email from "../../img/email.png"
-import linkedin from "../../img/linkedin.png"
-import githublo from "../../img/github.png"
+import html5  from "../../imges/html.png"
+import css from "../../imges/css.png"
+import javascript from "../../imges/javascript-logo.png"
+import reactlo from "../../imges/reactlogo.png"
+import figma from "../../imges/figma.png"
+import github from "../../imges/git.png"
+import pythonlo from "../../imges/pythonlogo.png"
+import flasklo from "../../imges/flask.png"
+import email from "../../imges/email.png"
+import linkedin from "../../imges/linkedin.png"
+import githublo from "../../imges/github.png"
 
 
 export const Skill = () => {

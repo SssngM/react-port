@@ -2,9 +2,9 @@ import React from 'react'
 import "./productlist.css"
 import Product from "../product/product"
 import { products } from "../../data";
-import sweet from "../../img/sweet-store.png"
-import todolist from "../../img/todolist.png"
-import designthinking from "../../img/Techgirls3.png"
+import sweet from "../../imges/sweet-store.png"
+import todolist from "../../imges/todolist.png"
+import designthinking from "../../imges/Techgirls3.png"
 // import designthinking from "../../img/Techgirls2.png"
 
 // console.log(products[0].img)

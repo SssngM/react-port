@@ -1,5 +1,5 @@
-import sweet from "./img/sweet-store.png"
-import todolist from "./img/todolist.png"
+import sweet from "./imges/sweet-store.png"
+import todolist from "./imges/todolist.png"
 
 
 
