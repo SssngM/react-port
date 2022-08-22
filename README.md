@@ -1,8 +1,5 @@
 portfolio with React !
 
 
-<img width="355" alt="Techgirls2" src="https://user-images.githubusercontent.com/71366662/185979349-6a0e3bf8-077f-4a81-a049-fa933e55f3ac.png">
-
-
-
-<img width="355" alt="Techgirls1" src="https://user-images.githubusercontent.com/71366662/185979174-e2eb999e-631e-4fd7-b149-33339a8401a8.png">
+<img width="378" alt="Screen Shot 2022-08-22 at 10 11 40 AM" src="https://user-images.githubusercontent.com/71366662/185979965-fa0ef1ca-eb96-4cf5-8a25-5f0c01a0eb51.png">
+<img width="378" alt="Screen Shot 2022-08-22 at 10 11 48 AM" src="https://user-images.githubusercontent.com/71366662/185979974-937c46b2-4c4f-4f96-9c9e-deeb342de9c2.png">
