@@ -10,7 +10,7 @@ export default function About() {
         <h3>ABOUT ME</h3>
         <div className="all"> 
           <div className="a-left"> 
-           <div className="a-left-title">  Orgarnazer </div> 
+           <div className="a-left-title">  Co-organizer </div> 
             <div >  of Tech Girls Social (in SF) </div>                
             <div className="a-left-wrapper">with diversity equity & inclusion</div>
           <div className="a-left-title">Design Thinker </div> 

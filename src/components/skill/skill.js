@@ -16,6 +16,7 @@ import githublo from "../../imges/github.png"
 
 export const Skill = () => {
   return (
+    
     <div className="k">
     <div className="k-title">SKILLS</div>
     <div className="k-img">

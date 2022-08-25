@@ -11,7 +11,8 @@ function Intro(props) {
                 <h1 className='i-name'> Seung Yoo</h1>
                 <div className="i-title"> 
                  <div className="title-item">Based in San Francisco, </div>
-                 <div className="title-item">a UI & Front-end Engineer. </div>
+                 <div className="title-item">a Front-end Engineer. </div>
+                 <div className="title-item">(former content designer) </div>
                 </div>
          
         </div>
