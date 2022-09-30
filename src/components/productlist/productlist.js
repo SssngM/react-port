@@ -20,19 +20,28 @@ export const Productlist = () => {
     
     <div className='pl'>
       <h3 className= 'port'> PROJECTS </h3>
-      <div className='p-list'>
 
-      {/* {products.map((item) => (
-          <Product key={item.id} img={item.img} link={item.link} />
-        ))} */}
-         {/* <a href="https://github.com/SssngM/TodoList-2022 " target="_blank" rel="noreferrer">
-          <Product img={todolist}/>
-        </a>
-        <a href="https://github.com/SssngM/TodoList-2022 " target="_blank" rel="noreferrer">
+    <div className='p-list'>
+        <Product img={wireframing} />
+      <div className ='p-des'>
+      <h2 className = 'p-title'> "Tech Girls Social" </h2>
+              <div> with Drawing, Figma, React. </div>
+              <div> building this website </div>
+              <div> as ux/ui and front-end role.</div>
+              < a href="https://www.figma.com/file/RpLX82xFYIxrRlCgbRuanJ/tech-girls-social-wireframing?node-id=0%3A1"> Figma Wireframing</a>
+      </div>
+    </div>
+
+    <div className='p-list'>
+      <div className ='p-des'>
+      <h2 className = 'p-title'> "Sweet Store Project" </h2>
+              <div>with Javscript, React.</div>
+              <div> Router,Boostrap,Cart funtions</div>
+              <a href="https://your-sweets.netlify.app" rel="noopener noreferrer"> site </a>
+          </div>
           <Product img={sweet}/>
-        </a> */}
-
-
+    </div>
+    <div className='p-list'>
           <Product img={todolist} />
         
           <div className ='p-des'>
@@ -42,36 +51,7 @@ export const Productlist = () => {
 
               <a href="https://github.com/SssngM/TodoList-2022" rel="noopener noreferrer"> github code </a>
           </div>
-
-
-
-      </div>
-
-     <div className='p-list'>
-     <div className ='p-des'>
-     <h2 className = 'p-title'> "Sweet Store Project" </h2>
-              <div>with Javscript, React.</div>
-              <div> Router,Boostrap,Cart funtions</div>
-              <a href="https://your-sweets.netlify.app" rel="noopener noreferrer"> site </a>
-          </div>
-          <Product img={sweet}/>
-
-      </div>
-
-      <div className='p-list'>
-        <Product img={wireframing} />
-     <div className ='p-des'>
-     <h2 className = 'p-title'> "Tech Girls Social" </h2>
-              <div> with Drawing, Figma, React. </div>
-              <div> building this website </div>
-              <div> as ux/ui and front-end role.</div>
-              < a href="https://www.figma.com/file/RpLX82xFYIxrRlCgbRuanJ/tech-girls-social-wireframing?node-id=0%3A1"> Figma Wireframing</a>
-          </div>
-
-
-      </div>
-
-
+    </div>
     </div>
   )
 }
