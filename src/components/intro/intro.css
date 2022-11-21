@@ -9,6 +9,7 @@
   margin-left: 20%;
   margin-top: 3%;
   margin-right: 20%;
+  font-size: 2vh;
 }
 
 .i-left-wrapper {
@@ -24,11 +25,11 @@
 }
 
 .i-name {
-  font-size: 4vh;
+  font-size: 5vh;
 }
 
 .i-title {
-  font-size: 2vh;
+  font-size: 2.5vh;
   display: flex;
   align-items: center;
   justify-content: center;

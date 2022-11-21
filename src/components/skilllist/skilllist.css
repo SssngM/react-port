@@ -1,21 +1,21 @@
 .s {
-    height: 80px;
-    width: 80PX;
-    /* background-color:rgb(183, 226, 226); */
-    border : 2px solid rgb(183, 226, 226);
-    border-radius: 50%;
-    display: inline-block;
-    margin: 2%;
-    overflow: hidden;
+  height: 70px;
+  width: 70px;
+  /* background-color:rgb(183, 226, 226); */
+  border: 2px solid rgb(183, 226, 226);
+  border-radius: 50%;
+  display: inline-block;
+  margin: 2%;
+  overflow: hidden;
 }
 
 .k-img img {
-    margin:5%;
-    height: 70px;
-    width: 65px;
+  margin: 5%;
+  height: 60px;
+  width: 55px;
 }
 
 .k-contact img {
-    height: 50px;
-    width: 50px;
+  height: 50px;
+  width: 50px;
 }
