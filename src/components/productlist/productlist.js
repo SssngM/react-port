@@ -26,8 +26,11 @@ export const Productlist = () => {
           <div> as ux/ui and front-end role.</div>
           <a href="https://www.figma.com/file/RpLX82xFYIxrRlCgbRuanJ/tech-girls-social-wireframing?node-id=0%3A1">
             {" "}
-            Figma Wireframing
+            Figma Mockup
           </a>
+          <div>
+            <a href="https://techgirlssocial.netlify.app"> Tech Girls Social</a>
+          </div>
         </div>
       </div>
 

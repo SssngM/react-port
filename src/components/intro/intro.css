@@ -1,6 +1,6 @@
 .i {
   display: flex;
-  height: 50vh;
+  height: 60vmin;
 }
 
 .i-left {
@@ -25,11 +25,11 @@
 }
 
 .i-name {
-  font-size: 5vh;
+  font-size: 4vw;
 }
 
 .i-title {
-  font-size: 2.5vh;
+  font-size: 1.5vw;
   display: flex;
   align-items: center;
   justify-content: center;

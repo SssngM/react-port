@@ -1,24 +1,17 @@
 .pl {
-  padding: 5px 200px;
+  /* padding: 5px 200px; */
   display: block;
   /* flex-direction: column; */
   align-items: center;
   text-align: center;
 }
 
-/* .h3 {
-    font : 40px;
-    margin-top: 2%;
-
-} */
-
 .p-list {
-  width: 90%;
+  padding: 0 10%;
   display: flex;
   flex-direction: inline-flex;
   margin: 5%;
   height: 60vh;
-  font-size: 2.5vh;
   /* flex-wrap: wrap; */
   justify-content: space-between;
 }
@@ -28,16 +21,15 @@
 }
 
 .p-des {
+  font-size: 1.2vw;
   margin: 5%;
   align-items: strech;
   color: rgb(98, 97, 97);
-  /* padding: 5%; */
 }
 
 .p-title {
-  font: 4vh;
+  font-size: 2vw;
   margin-top: 20%;
-  /* padding : 30px; */
   font-weight: bold;
   color: rgb(162, 188, 48);
 }
