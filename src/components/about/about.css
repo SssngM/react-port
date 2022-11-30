@@ -1,7 +1,7 @@
 h3 {
   text-align: center;
-  margin: 5%;
-  margin-top: 10%;
+  /* margin: 5%; */
+  margin-top: 5%;
 }
 
 h4 {
@@ -24,7 +24,7 @@ h4 {
 .a-left {
   flex: 1;
   text-align: center;
-  margin-left: 15%;
+  margin-left: 10%;
 }
 
 .a-left-title {
@@ -44,9 +44,9 @@ h4 {
 }
 
 .imgme {
-  height: 100%;
-  width: 50%;
-  padding-right: 10%;
+  height: 45vh;
+  width: 20vw;
+  padding-top: 5%;
 }
 
 .a-desc {

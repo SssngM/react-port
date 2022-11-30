@@ -1,7 +1,7 @@
 @media screen and (min-width: 400px) {
   .p {
-    width: 60%;
-    margin: 10px;
+    width: 40vw;
+    height: 60vh;
     overflow: scroll;
     border: 2px solid rgb(183, 226, 226);
     border-radius: 10px;
