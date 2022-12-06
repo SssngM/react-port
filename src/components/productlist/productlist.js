@@ -29,7 +29,7 @@ export const Productlist = () => {
               Figma Mockup
             </a>
             <div>
-              <a href="https://techgirlssocial.netlify.app">
+              <a href="https://www.techgirlssocial.org">
                 {" "}
                 Tech Girls Social
               </a>
