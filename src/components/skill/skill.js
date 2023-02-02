@@ -29,7 +29,8 @@ export const Skill = () => {
         <Skilllist img={figma} />
         <Skilllist img={github} />
       </div>
-      <div className="k-title">GET IN TOUCH</div>
+      <div className="k-title">Let’s work together</div>
+      <div className="contact" > Contact me </div >
       <div className="k-contact">
         <a href="mailto:seungmyoo525@gmail.com">
           {" "}

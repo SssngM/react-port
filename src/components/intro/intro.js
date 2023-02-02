@@ -10,7 +10,7 @@ function Intro(props) {
           <h1 className="i-name"> Seung Yoo</h1>
           <div className="i-title">
             <div className="title-item">Based in San Francisco. </div>
-            <div className="title-item">A UI & Front-end Engineer. </div>
+            <div className="title-item">A Front-end Engineer. </div>
             <div className="title-item">
               Currently working on{" "}
               <a href="https://gitlab.com/gitlab-com/marketing/digital-experience/slippers-ui">

@@ -18,8 +18,8 @@ export default function About() {
           </div> */}
           <div className="a-left-title">Design Thinker </div>
           <div className="a-left-wrapper"> Hand Drawing and design </div>
-          <div className="a-left-title">Front-end Engineer </div>
-          <div className="a-left-wrapper"> wireframe for users </div>
+          <div className="a-left-title">Frontend Engineer </div>
+          <div className="a-left-wrapper"> Understand experience users </div>
         </div>
 
         <div className="a-right">
@@ -28,11 +28,11 @@ export default function About() {
       </div>
       <div className="a-desc">
         {" "}
-        Previous job was a content designer and switching to be an front-end
-        engineer. Like meeting, learning, studying and collaborating with
+        Was in design and education indutry years and currently exploring front-end
+        engineering. Love meeting people, learning something new and collaborating with
         others. Set up study groups multiple times for React, Data structure
         algorithm and toy projects. Currently building a website for the Tech
-        Girls Social group as volunteer work.{" "}
+        Girls Social group as a volunteer.{" "}
       </div>
     </div>
   );
