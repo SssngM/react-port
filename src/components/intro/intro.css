@@ -54,3 +54,10 @@
   width: 120%;
   height: 100%;
 }
+
+.intromc {
+  display: flex;
+  position: relative;
+  align-items: center;
+  /* height: 20%; */
+}

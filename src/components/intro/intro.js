@@ -1,6 +1,7 @@
 import React from "react";
 import "./intro.css";
 import Introimg from "../../imges/intromac2.jpg";
+import Intromc from "../../imges/intromc.svg";
 
 function Intro(props) {
   return (
@@ -24,6 +25,7 @@ function Intro(props) {
       </div>
       <div className="i-right">
         <img src={Introimg} className="intro-img" />
+
       </div>
     </div>
   );
