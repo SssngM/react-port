@@ -7,16 +7,17 @@ function Intro(props) {
     <div className="i">
       <div className="i-left">
         <div className="i-left-wrapper">
-          <h1 className="i-name"> Seung Yoo</h1>
+        {/* <div className="i-hello">Hello! I am </div> */}
+          <h2 className="i-name"> Seung Yoo</h2>
           <div className="i-title">
-            <div className="title-item">Based in San Francisco. </div>
-            <div className="title-item">A Front-end Engineer. </div>
+            <div className="title-item">Hello, I'm a Frontend Engineer </div>
+            <div className="title-item">based in San Francisco. </div>
             <div className="title-item">
-              Currently working on{" "}
+              Currently working with{" "}
               <a href="https://gitlab.com/gitlab-com/marketing/digital-experience/slippers-ui">
-                Slippers Design System
+                Slippers Design System 
               </a>{" "}
-              at GitLab
+              team at GitLab.
             </div>
           </div>
         </div>

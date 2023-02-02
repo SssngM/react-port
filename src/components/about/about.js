@@ -23,7 +23,7 @@ export default function About() {
         </div>
 
         <div className="a-right">
-          <img src={Aboutme} className="imgme" />
+          <img src={Aboutme} className="image" />
         </div>
       </div>
       <div className="a-desc">
