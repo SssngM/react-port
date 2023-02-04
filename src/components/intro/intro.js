@@ -15,7 +15,7 @@ function Intro(props) {
             <div className="title-item">based in San Francisco. </div>
             <div className="title-item">
               Currently working with{" "}
-              <a href="https://gitlab.com/gitlab-com/marketing/digital-experience/slippers-ui">
+              <a href="https://gitlab.com/SssngM/slippers-ui">
                 Slippers Design System 
               </a>{" "}
               team at GitLab.

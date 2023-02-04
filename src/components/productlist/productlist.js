@@ -24,6 +24,7 @@ export const Productlist = () => {
             <div> with Drawing, Figma, React. </div>
             <div> building this website </div>
             <div> as ux/ui and front-end role.</div>
+
             <a href="https://www.figma.com/file/RpLX82xFYIxrRlCgbRuanJ/tech-girls-social-wireframing?node-id=0%3A1">
               {" "}
               Figma Mockup
@@ -34,17 +35,18 @@ export const Productlist = () => {
                 Tech Girls Social
               </a>
             </div>
+
           </div>
         </div>
 
         <div className="p-list">
           <div className="p-des">
             <h2 className="p-title"> "Sweet Store Project" </h2>
-            <div>with Javscript, React.</div>
+            <div>with Javscript, React,</div>
             <div> Router,Boostrap,Cart funtions</div>
             <a href="https://your-sweets.netlify.app" rel="noopener noreferrer">
               {" "}
-              site{" "}
+              Sweet Store Site{" "}
             </a>
           </div>
           <Product img={sweet} />

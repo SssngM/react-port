@@ -6,13 +6,17 @@ import css from "../../imges/css.png";
 import javascript from "../../imges/javascript-logo.png";
 import reactlo from "../../imges/reactlogo.png";
 import figma from "../../imges/figma.png";
-import github from "../../imges/git.png";
+import github from "../../imges/github.png";
 import pythonlo from "../../imges/pythonlogo.png";
 import flasklo from "../../imges/flask.png";
 import email from "../../imges/email.png";
 import linkedin from "../../imges/linkedin.png";
 import vue from "../../imges/vue.png";
 import githublo from "../../imges/github.png";
+import gitlab from "../../imges/gitlab.png";
+import vscode from "../../imges/vscode.png";
+import sass from "../../imges/sass.png";
+import storybook from "../../imges/storybook.png";
 
 export const Skill = () => {
   return (
@@ -28,9 +32,14 @@ export const Skill = () => {
         <Skilllist img={flasklo} />
         <Skilllist img={figma} />
         <Skilllist img={github} />
+        <Skilllist img={gitlab} />
+        <Skilllist img={sass} />
+        <Skilllist img={vscode} />
+        <Skilllist img={storybook} />
       </div>
-      <div className="k-title">Let’s work together</div>
-      <div className="contact" > Contact me </div >
+     
+      <div className="k-title"> Keep in Touch </div >
+      <div className= "contact">Let’s work together!</div>
       <div className="k-contact">
         <a href="mailto:seungmyoo525@gmail.com">
           {" "}
