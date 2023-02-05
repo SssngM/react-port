@@ -17,6 +17,7 @@ import gitlab from "../../imges/gitlab.png";
 import vscode from "../../imges/vscode.png";
 import sass from "../../imges/sass.png";
 import storybook from "../../imges/storybook.png";
+import Ai from "../../imges/Ai.png";
 
 export const Skill = () => {
   return (
@@ -36,6 +37,7 @@ export const Skill = () => {
         <Skilllist img={sass} />
         <Skilllist img={vscode} />
         <Skilllist img={storybook} />
+        <Skilllist img={Ai} />
       </div>
      
       <div className="k-title"> Keep in Touch </div >

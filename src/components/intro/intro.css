@@ -28,7 +28,7 @@
   font-size: 1.5vw;
 }
 .i-name {
-  font-size: 4vw;
+  font-size: 3vw;
 }
 
 .i-title {
@@ -38,7 +38,7 @@
   justify-content: center;
   text-align: center;
   flex-direction: column;
-  /* padding-top: 5%; */
+  padding-top: -5%;
 }
 
 .i-right {
@@ -60,4 +60,8 @@
   position: relative;
   align-items: center;
   /* height: 20%; */
+}
+
+.title-item {
+  font-size:1em
 }

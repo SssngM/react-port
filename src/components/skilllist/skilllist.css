@@ -9,6 +9,10 @@
   overflow: hidden;
 }
 
+.k-img {
+  margin-left: 15%;
+  margin-right: 15%;
+}
 .k-img img {
   margin: 5%;
   height: 60px;
