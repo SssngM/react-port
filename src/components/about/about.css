@@ -18,7 +18,6 @@ h4 {
 }
 
 .all {
-  height: 50vh;
   display: flex;
 }
 
@@ -45,7 +44,6 @@ h4 {
 }
 
 .image {
-  height: 45vh;
   width: 20vw;
   padding-top: 5%;
 }

@@ -28,7 +28,7 @@ export default function About() {
       </div>
       <div className="a-desc">
         {" "}
-        Was in design and education indutry years and currently exploring front-end
+        Was in design and education indutry for years and currently exploring front-end
         engineering. Love meeting people, learning something new and collaborating with
         others. Set up study groups multiple times for React, Data structure
         algorithm and toy projects. Currently building a website for the Tech

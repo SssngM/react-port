@@ -55,7 +55,7 @@
   height: 100%;
 }
 
-.intromc {
+.intro-img {
   display: flex;
   position: relative;
   align-items: center;
@@ -64,4 +64,22 @@
 
 .title-item {
   font-size:1em
+}
+
+
+
+@media only screen and (max-width: 600px) {
+  .intro-img {
+    display: block;
+    margin-left: -70%;
+    margin-top: 15%;
+    align-items: center;
+    width: 120%;
+    height: 90%;
+  }
+
+  .i {
+    display: flex;
+    height: 30vmin;
+  }
 }

@@ -1,7 +1,7 @@
 import React from "react";
 import "./intro.css";
 import Introimg from "../../imges/intromac2.jpg";
-import Intromc from "../../imges/intromc.svg";
+import Ani from "../../imges/port_ani.gif"
 
 function Intro(props) {
   return (
@@ -23,7 +23,10 @@ function Intro(props) {
       </div>
       <div className="i-right">
         <img src={Introimg} className="intro-img" />
-
+        {/* <video controls autoPlay loop muted>
+          <source src={myVideo} type="video/mp4"></source>
+        </video> */}
+        {/* <img src={Ani} alt="loading..." /> */}
       </div>
     </div>
   );

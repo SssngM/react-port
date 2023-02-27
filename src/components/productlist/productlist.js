@@ -4,7 +4,8 @@ import Product from "../product/product";
 import { products } from "../../data";
 import sweet from "../../imges/sweet-store.png";
 import todolist from "../../imges/todolist.png";
-import wireframing from "../../imges/wireframing.png";
+import tech from "../../imges/tech.png";
+import Vueport from "../../imges/vue-port.png";
 
 // import designthinking from "../../img/Techgirls2.png"
 
@@ -17,8 +18,9 @@ export const Productlist = () => {
     <div className="pl">
       <h3 className="port"> PROJECTS </h3>
       <div className="products">
+
         <div className="p-list">
-          <Product img={wireframing} />
+          <Product img={tech}/>
           <div className="p-des">
             <h2 className="p-title"> "Tech Girls Social" </h2>
             <div> with Drawing, Figma, React. </div>
@@ -32,10 +34,9 @@ export const Productlist = () => {
             <div>
               <a href="https://www.techgirlssocial.org">
                 {" "}
-                Tech Girls Social
+                Tech Girls Social Site
               </a>
             </div>
-
           </div>
         </div>
 
@@ -51,9 +52,24 @@ export const Productlist = () => {
           </div>
           <Product img={sweet} />
         </div>
-        <div className="p-list">
-          <Product img={todolist} />
 
+
+        <div className="p-list">
+          <Product img={Vueport}/>
+          <div className="p-des">
+            <h2 className="p-title"> "Hackathon Team project" </h2>
+            <div> With Vue.js, SCSS, </div>
+            <div> Use google book API, </div>
+            <div> Team project</div>
+
+            <a href="https://github.com/SssngM/hackathon-tour">
+              {" "}
+              GitHub Code
+            </a>
+          </div>
+        </div>
+
+        <div className="p-list">
           <div className="p-des">
             <h2 className="p-title"> "To Do List Project" </h2>
             <div>with Javscript, React.</div>
@@ -67,6 +83,7 @@ export const Productlist = () => {
               github code{" "}
             </a>
           </div>
+          <Product img={todolist} />
         </div>
       </div>
     </div>
