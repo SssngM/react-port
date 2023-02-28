@@ -6,18 +6,13 @@
 .i-left {
   /* flex: 1; */
   /* background-color: rgb(92, 222, 222); */
-  margin-left: 20%;
-  margin-top: 7%;
+  margin-left: 10%;
   margin-right: 20%;
-  margin-bottom: 7%;
   font-size: 2vh;
 }
 
 .i-left-wrapper {
-  /* margin-left: 10%;
-  margin-right: 10%;
-  margin-top: 12%;
-  margin-bottom: 15%; */
+  margin: 5% 0 5% 0;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -30,21 +25,21 @@
 }
 .i-name {
   font-size: 7vw;
-  position: absolute;
+  position: relative;
   padding-right: 35%;
 }
 
 .i-title {
   font-size: 1.5vw;
-  position: relative;
+  position: absolute;
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
   flex-direction: column;
-  margin-top:5%;
+  margin-top:3%;
   margin-left: 5%;
-  padding-left: 70%;
+  padding-left: 55%;
   width: max-content;
 }
 
