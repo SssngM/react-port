@@ -23,16 +23,16 @@ export const Productlist = () => {
           <Product img={tech}/>
           <div className="p-des">
             <h2 className="p-title"> "Tech Girls Social" </h2>
-            <div> with Drawing, Figma, React. </div>
-            <div> building this website </div>
-            <div> as ux/ui and front-end role.</div>
-
-            <a href="https://www.figma.com/file/RpLX82xFYIxrRlCgbRuanJ/tech-girls-social-wireframing?node-id=0%3A1">
+            <div> Currently working on TGS website </div>
+            <div> With Figma, React.js for UI. </div>
+            <div> As UX and front-end engineer.</div>
+            <br></br>
+            <a href="https://www.figma.com/file/RpLX82xFYIxrRlCgbRuanJ/tech-girls-social-wireframing?node-id=0%3A1" target="_blank">
               {" "}
               Figma Mockup
             </a>
             <div>
-              <a href="https://www.techgirlssocial.org">
+              <a href="https://www.techgirlssocial.org" target="_blank">
                 {" "}
                 Tech Girls Social Site
               </a>
@@ -43,12 +43,19 @@ export const Productlist = () => {
         <div className="p-list">
           <div className="p-des">
             <h2 className="p-title"> "Sweet Store Project" </h2>
-            <div>with Javscript, React,</div>
+            <div>Toy project with Javscript, React,</div>
             <div> Router,Boostrap,Cart funtions</div>
-            <a href="https://your-sweets.netlify.app" rel="noopener noreferrer">
+            <br></br>
+            <a href="https://your-sweets.netlify.app" target="_blank" rel="noopener noreferrer">
               {" "}
               Sweet Store Site{" "}
             </a>
+            <div>
+            <a href="https://github.com/SssngM/sweets_store" target="_blank" rel="noopener noreferrer">
+              {" "}
+              GitHub Code{" "}
+            </a>
+            </div>
           </div>
           <Product img={sweet} />
         </div>
@@ -58,11 +65,11 @@ export const Productlist = () => {
           <Product img={Vueport}/>
           <div className="p-des">
             <h2 className="p-title"> "Hackathon Team project" </h2>
-            <div> With Vue.js, SCSS, </div>
+            <div> Team project with Vue.js, SCSS, </div>
             <div> Use google book API, </div>
-            <div> Team project</div>
+            <br></br>
 
-            <a href="https://github.com/SssngM/hackathon-tour">
+            <a href="https://github.com/SssngM/hackathon-tour" target="_blank">
               {" "}
               GitHub Code
             </a>
@@ -74,9 +81,9 @@ export const Productlist = () => {
             <h2 className="p-title"> "To Do List Project" </h2>
             <div>with Javscript, React.</div>
             <div>log in, add, edit, delete funtions</div>
-
+            <br></br>
             <a
-              href="https://github.com/SssngM/TodoList-2022"
+              href="https://github.com/SssngM/TodoList-2022" target="_blank"
               rel="noopener noreferrer"
             >
               {" "}

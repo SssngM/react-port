@@ -50,7 +50,7 @@ h4 {
 
 .a-desc {
   font-size: 1.5vw;
-  display: flex;
+  /* display: flex; */
   text-align: center;
   align-items: center;
   margin: 5% 15%;

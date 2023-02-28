@@ -18,18 +18,14 @@ img:hover {
 
 
 
-/* @media only screen and (max-width: 400px)  {
+@media only screen and (max-width: 400px)  {
   .p {
-    width: 40vw;
+    width: 70vw;
     overflow: scroll;
     border: 2px solid rgb(183, 226, 226);
     border-radius: 10px;
     filter: opacity(50%);
   }
 
-  .p:hover {
-    border: 2px solid rgb(61, 233, 227);
-    filter: opacity(100%);
-  }
-} */
+}
 
