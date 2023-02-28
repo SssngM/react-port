@@ -22,7 +22,7 @@ import Ai from "../../imges/Ai.png";
 export const Skill = () => {
   return (
     <div className="k">
-      <div className="k-title">SKILLS</div>
+      <div className="port">SKILLS</div>
       <div className="k-img">
         <Skilllist img={html5} />
         <Skilllist img={css} />
@@ -40,7 +40,7 @@ export const Skill = () => {
         <Skilllist img={Ai} />
       </div>
      
-      <div className="k-title"> Ready to Explore? </div >
+      <div className="port"> Ready to Explore? </div >
       <div className= "contact">Feel free to contact me</div>
       <div className="k-contact">
         <a href="mailto:seungmyoo525@gmail.com">

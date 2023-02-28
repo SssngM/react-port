@@ -69,17 +69,40 @@
 
 
 @media only screen and (max-width: 600px) {
-  .intro-img {
-    display: block;
-    margin-left: -70%;
-    margin-top: 15%;
-    align-items: center;
-    width: 120%;
-    height: 90%;
-  }
 
   .i {
     display: flex;
-    height: 30vmin;
   }
+  
+  .intro-img {
+    display: block;
+    margin-left: -70%;
+    margin-top: 20%;
+    align-items: center;
+    width: 170%;
+    height: 85%;
+}
+
+
+  .i {
+    display: flex;
+  }
+
+  .i-left {
+    margin-left:10%;
+  }
+  .i-name {
+    font-size: 4.5vw;
+  }
+  
+  .i-title {
+    font-size: 2.5vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    padding-top: -5%;
+  }
+  
 }

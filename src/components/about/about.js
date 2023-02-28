@@ -5,7 +5,7 @@ import Aboutme from "../../imges/about.jpg";
 export default function About() {
   return (
     <div className="a">
-      <h3>ABOUT ME</h3>
+      <h3 className="port">ABOUT ME</h3>
       <div className="all">
         <div className="a-left">
           <div className="a-left-title"> Co-organizer </div>

@@ -47,9 +47,18 @@ a {
 
 
 @media only screen and (max-width: 600px) {
+a {
+  font-size: 1.5em;
+}
+.port {
+  font-size: 2vh;
+}
+.p-title {
+  font-size: 2vh;
+}
 .p-list {
-  padding: 0 8%;
-  margin: 5%;
+  padding: 3%;
+  margin: 0;
   display: flex;
   flex-direction: column-reverse;
   justify-content: space-between;
