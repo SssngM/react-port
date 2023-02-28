@@ -1,23 +1,23 @@
 .i {
-  display: flex;
+  /* display: flex; */
   height: 6-vmin;
 }
 
 .i-left {
-  flex: 1;
+  /* flex: 1; */
   /* background-color: rgb(92, 222, 222); */
   margin-left: 20%;
-  margin-top: 3%;
+  margin-top: 7%;
   margin-right: 20%;
-  margin-bottom: 5%;
+  margin-bottom: 7%;
   font-size: 2vh;
 }
 
 .i-left-wrapper {
-  margin-left: 10%;
+  /* margin-left: 10%;
   margin-right: 10%;
   margin-top: 12%;
-  margin-bottom: -3%;
+  margin-bottom: 15%; */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -29,23 +29,29 @@
   font-size: 1.5vw;
 }
 .i-name {
-  font-size: 3vw;
+  font-size: 7vw;
+  position: absolute;
+  padding-right: 35%;
 }
 
 .i-title {
   font-size: 1.5vw;
+  position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
   flex-direction: column;
-  padding-top: -5%;
+  margin-top:5%;
+  margin-left: 5%;
+  padding-left: 70%;
+  width: max-content;
 }
 
-.i-right {
+/* .i-right {
   flex: 1;
   width: 70%;
-}
+} */
 
 .intro-img {
   display: block;
@@ -66,7 +72,68 @@
   font-size:1em
 }
 
+a {
+  text-decoration: none;
+}
 
+.i-lines {
+  display: flex;
+  animation: 3s linear 1s slidein infinite alternate-reverse;
+}
+@keyframes slidein {
+  from {
+    margin-left: 17%;
+    width: 100%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+.intro-line {
+  height: 1vh;
+    width:1vw;
+    background-color: rgb(110, 189, 221);
+    /* margin-left: 2%; */
+    /* background-image: linear-gradient(to right, skyblue , lightgreen); */
+    border-radius: 1em;
+}
+.intro-line0 {
+  height: 1vh;
+    width:3vw;
+    background-color:  skyblue;
+    margin-left: 1%;
+    /* background-image: linear-gradient(to right, skyblue , lightgreen); */
+    border-radius: 1em;
+}
+
+.intro-line1 {
+  height: 1vh;
+    width: 70vw;
+    margin: 0 1% 0 1%;
+    background-image: linear-gradient(to right, skyblue , lightgreen);
+    border-radius: 1em;
+}
+
+.intro-line2 {
+  height: 1vh;
+    width:3vw;
+    background-color:  lightgreen;
+    margin-right: 1%;
+    /* background-image: linear-gradient(to right, skyblue , lightgreen); */
+    border-radius: 1em;
+}
+
+.intro-line3 {
+  height: 1vh;
+    width:1vw;
+    background-color:  rgb(173, 249, 173);
+    /* margin-right: 2%; */
+    /* background-image: linear-gradient(to right, skyblue , lightgreen); */
+    border-radius: 1em;
+}
 
 @media only screen and (max-width: 600px) {
 
@@ -104,5 +171,8 @@
     flex-direction: column;
     padding-top: -5%;
   }
+
+
+  
   
 }

@@ -37,8 +37,8 @@
 }
 
 a {
-  margin: 5%;
-  font-size: 1em;
+  font-size: 1.2em;
+  color: rgb(109 135 197);
 }
 
 /* section {
@@ -48,7 +48,7 @@ a {
 
 @media only screen and (max-width: 600px) {
 a {
-  font-size: 1.5em;
+  font-size: 1.3vh;
 }
 .port {
   font-size: 2vh;
