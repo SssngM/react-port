@@ -12,7 +12,7 @@ function Intro(props) {
         {/* <div className="i-hello">Hello! I am </div> */}
           <h2 className="i-name"> Seung Yoo</h2>
           <div className="i-title">
-            <div className="title-item">Hello, I'm a Frontend Engineer </div>
+            <div className="title-item">Hello, I'm a UX / Frontend Engineer </div>
             <div className="title-item">based in San Francisco. </div>
             <div className="title-item">
               Recently finished working at GitLab,  {" "}

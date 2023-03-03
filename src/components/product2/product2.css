@@ -1,0 +1,32 @@
+video {
+    width: 45vw;
+    height: 50vmin;
+}
+
+.p-video{
+    width: 55vw;
+    height: 50vmin;
+    overflow: scroll;
+    border: 2px solid rgb(183, 226, 226);
+    border-radius: 10px;
+    filter: none;
+  }
+
+  
+
+@media only screen and (max-width: 400px) {
+
+video {
+        width: 85vmin;
+        height: 50vmin;
+}
+    
+.p-video {
+    width: 90vw;
+    overflow: scroll;
+    border: 2px solid rgb(183, 226, 226);
+    border-radius: 10px;
+    filter: opacity(100%);
+    
+}
+}
