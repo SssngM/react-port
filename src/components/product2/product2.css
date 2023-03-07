@@ -1,15 +1,16 @@
 video {
-    width: 45vw;
-    height: 50vmin;
+    width: 55vw;
+    height: 57vmin;
 }
 
 .p-video{
-    width: 55vw;
+    width: 48vw;
     height: 50vmin;
     overflow: scroll;
     border: 2px solid rgb(183, 226, 226);
     border-radius: 10px;
     filter: none;
+    margin-right: 3%;
   }
 
   

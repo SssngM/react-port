@@ -40,7 +40,7 @@ export const Skill = () => {
         <Skilllist img={Ai} />
       </div>
      
-      <div className="port"> Ready to Explore? </div >
+      <div className="port"> contact me</div >
       <div className= "contact">Feel free to contact me</div>
       <div className="k-contact">
         <a href="mailto:seungmyoo525@gmail.com">
