@@ -9,8 +9,14 @@
     width: 25vw;
     height: 32vmin;
     overflow: hidden;
-    border: 2px solid rgb(61, 233, 227);
+    border: 2px solid rgb(183, 226, 226);
     border-radius: 10px;
+    transition: all .2s ease-in-out;
+  }
+
+  .p2:hover {
+    transform: scale(1.1);
+    border: 2px solid rgb(61, 233, 227);
   }
 
   .p-li2 {

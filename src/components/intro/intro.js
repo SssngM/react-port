@@ -13,11 +13,11 @@ function Intro(props) {
           <h2 className="i-name"> Seung Yoo</h2>
           <div className="i-title">
             <div className="title-item">Hello, I'm a UX / Frontend Engineer </div>
-            <div className="title-item">based in San Francisco. </div>
-            <div className="title-item">
+            <div className="title-item">Based in San Francisco. </div>
+            {/* <div className="title-item">
               Recently finished working at GitLab,  {" "}
             <div>{" "}<a href="https://design.gitlab.com/">Slippers(Pajamas)</a>UI Design System. </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

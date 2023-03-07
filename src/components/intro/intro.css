@@ -30,7 +30,7 @@
 }
 
 .i-title {
-  font-size: 1.5vw;
+  font-size: 1.7vw;
   position: absolute;
   display: flex;
   align-items: center;
@@ -63,9 +63,9 @@
   /* height: 20%; */
 }
 
-.title-item {
+/* .title-item {
   font-size:1em
-}
+} */
 
 a {
   text-decoration: none;
