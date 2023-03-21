@@ -11,17 +11,23 @@ export default function About() {
           <div className="a-left-title"> Co-organizer </div>
           <div div className="a-left-wrapper">
             
-            Set up study groups multiple times 
-            <div>for React, Data Structure Algorithm and Toy projects. </div>
+              Collaborate with others
+            <div> grew community over 2000 members.</div>
           </div>
           {/* <div className="a-left-wrapper">
             with diversity equity & inclusion
           </div> */}
           <div className="a-left-title">Design Thinker </div>
-          <div className="a-left-wrapper"> Was in design indutry professionally as a visual desinger </div>
+          <div className="a-left-wrapper"> 
+          <div> Problems solver </div>
+          Passion for new feature 
+          </div> 
+
           <div className="a-left-title">Frontend Engineer </div>
-          <div className="a-left-wrapper"> Building websites for the Tech
-        Girls Social / Group Five </div>
+          <div className="a-left-wrapper">
+        <div> Dive into details</div>
+        <div> Vision for how to make things happen</div>
+        </div>
         </div>
 
         <div className="a-right">
