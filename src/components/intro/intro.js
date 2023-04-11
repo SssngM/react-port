@@ -2,10 +2,12 @@ import React from "react";
 import "./intro.css";
 import Introimg from "../../imges/intromac2.jpg";
 import Ani from "../../imges/port_ani.gif"
+import background from "../../imges/background.jpg"
 
 function Intro(props) {
   return (
-    <div>
+    <div style={{ backgroundImage:`url(${background})`, maxWidth: '100%',backgroundSize:'cover', backgroundRepeat: 'no-repeat'}}>
+    {/* <div> */}
     <div className="i">
       <div className="i-left">
         <div className="i-left-wrapper">

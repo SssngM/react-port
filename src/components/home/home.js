@@ -4,9 +4,10 @@ import Productlist from "../productlist/productlist"
 import About from "../about/about"
 import Skill from "../skill/skill"
 
+
 function Home() {
     return (
-    <div className="App">
+    <div >
         <Intro/>
         <Productlist/>
         <About/>

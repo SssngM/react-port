@@ -13,7 +13,7 @@ import { BrowserRouter, Router, Switch, Routes,Route} from 'react-router-dom';
 function App() {
   return (
     
-    <div> 
+    <div style={{ margin:0}}> 
     <BrowserRouter>
     {/* <div className="App">
         <Intro/>

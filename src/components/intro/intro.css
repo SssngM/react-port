@@ -11,7 +11,8 @@
 }
 
 .i-left-wrapper {
-  margin: 5% 0 0% 0;
+  padding-top: 15%;
+  margin:0;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -23,6 +24,7 @@
   font-size: 1.5vw;
 }
 .i-name {
+  /* margin-top: 10%; */
   font-size: 7vw;
   position: relative;
   padding-right: 35%;
@@ -71,7 +73,7 @@ a {
 }
 
 .i-lines {
-  margin-top: 5%;
+  margin-top: 3%;
   display: flex;
   animation: 3s linear 1s slidein infinite alternate-reverse;
 }
