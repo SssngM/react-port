@@ -5,8 +5,10 @@
     margin: 0;
 } */
 
-
-.react-pdf {
-    width: '100%'!important;
-    height: '100%' !important;
+@media only screen and (max-width: 400px)  {
+    .casestudy  {
+      width: 100vw;
+      background-color: mediumvioletred;
+    }
+  
 }

@@ -7,16 +7,10 @@ function FullSizeImage() {
   return (
 
 
-    <div>
-        <Link to="/"> <img src={icon}  style={{ width: '1.5rem', height: '1.5rem'}} /> </Link>
-    <div style={{ width: '100%', height: '100%', justifyContent: 'center', alignItems: 'center' }}>
-    {/* <div className='casestudy'> */}
-    {/* <Document file={casestudy1}>
-    <Page scale={4.0} pageNumber={1} />
-    case study
-     </Document> */}
-
-      <img src={casestudy} style={{ maxWidth: '100%', height: '100%',backgroundColor: 'white' }} alt="Full Size Image" /> 
+    <div className='casestudy'>
+      <Link to="/"> <img src={icon}  style={{ width: '1.5rem', height: '1.5rem'}} /> </Link>
+    <div >
+      <img src={casestudy} style={{ maxWidth: '100%', backgroundColor: 'white', objectFit: 'contain' }} alt="Full Size Image" /> 
       {/* <a href={casestudy} style={{ maxWidth: '100%', maxHeight: '100%', objectFit: 'contain' }} target="_blank" rel="noopener noreferrer"> Cast Study </a> */}
     </div>
     </div>
