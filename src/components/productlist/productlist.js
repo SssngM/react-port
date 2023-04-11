@@ -3,6 +3,9 @@ import "./productlist.css";
 import Product from "../product/product";
 import Product2 from "../product2/product2";
 import Product3 from "../product3/product3";
+import FullSizeImage from '../FullSizeImage/FullSizeImage';
+import { Link} from 'react-router-dom';
+
 import { products } from "../../data";
 import sweet from "../../imges/sweet-store.png";
 import todolist from "../../imges/todolist.png";
@@ -10,6 +13,9 @@ import tech from "../../imges/tech.png";
 import Vueport from "../../imges/vue-port.png";
 import slprecoding from "../../imges/slprecoding.mov";
 import groupfive from "../../imges/groupfive.png";
+import casestudy from "../../imges/casestudy.jpg";
+
+
 
 // import designthinking from "../../img/Techgirls2.png"
 
@@ -18,6 +24,9 @@ import groupfive from "../../imges/groupfive.png";
 // const todolist = "../img/todolist.png"
 
 export const Productlist = () => {
+
+
+  
   return (
     <div className="pl">
       <h3 className="port"> PROJECTS </h3>
@@ -56,6 +65,14 @@ export const Productlist = () => {
               <li> Co-found / Frontend Engineer</li>
               <li> Figma, Javscript, React.js for UI </li>
             </ul> 
+            <div className="casestudy"> 
+
+            <Link to="/image">Cast Study</Link>
+            {/* <a href={casestudy} onClick={(event) => { event.preventDefault(); return <FullSizeImage /> }}> View Cast Study</a> */}
+            {/* <a href={casestudy} style={{  width: '100%', height: '100%', display: 'flex', justifyContent: 'center', alignItems: 'center', backgroundColor: 'white'}} target="_blank" rel="noopener noreferrer">
+              Cast Study{" "}
+            </a> */}
+            </div>
             <a href="https://groupfive.co" target="_blank" rel="noopener noreferrer">
               {" "}
               GroupFive Intake{" "}
@@ -67,8 +84,11 @@ export const Productlist = () => {
             </a> */}
             </div>
           </div>
-          <Product img={groupfive}/>
+           {/* <a href={casestudy} target="_blank" style={{ maxWidth: '400%', maxHeight: '600%' }}> <Product img={groupfive} /> </a> */}
+           <Product img={groupfive} /> 
         </div>
+
+
 
 
 

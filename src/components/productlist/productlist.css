@@ -91,4 +91,12 @@ a {
   align-items: strech;
   color: rgb(98, 97, 97);
 }
+
+.casestudy img {
+  width: '150%';
+  height: '150%';
+  padding: 0;
+  background-color: 'white'
+}
+
 }
