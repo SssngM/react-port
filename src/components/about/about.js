@@ -8,22 +8,22 @@ export default function About() {
       <h3 className="port">ABOUT ME</h3>
       <div className="all">
         <div className="a-left">
-          <div className="a-left-title"> Co-organizer </div>
+          <div className="a-left-title"> Community Builder</div>
           <div div className="a-left-wrapper">
             
-              Collaborate with others
-            <div> grew community over 2000 members.</div>
+            organize local community in tech
+            <div>Launching non-profit as co-organizer</div>
           </div>
           {/* <div className="a-left-wrapper">
             with diversity equity & inclusion
           </div> */}
           <div className="a-left-title">Design Thinker </div>
           <div className="a-left-wrapper"> 
-          <div> Problems solver </div>
+          <div> Problems solver, happily creatively </div>
           Passion for new feature 
           </div> 
 
-          <div className="a-left-title">Frontend Engineer </div>
+          <div className="a-left-title">Frontend coding skills</div>
           <div className="a-left-wrapper">
         <div> Dive into details</div>
         <div> Vision for how to make things happen</div>
