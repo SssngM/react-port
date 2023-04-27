@@ -3,13 +3,18 @@ import "./intro.css";
 import Introimg from "../../imges/intromac2.jpg";
 import Ani from "../../imges/port_ani.gif"
 import background from "../../imges/background.jpg"
+import Pdf from '../../imges/Seung_resume.pdf';
+import { Link} from 'react-router-dom';
+
 
 function Intro(props) {
   return (
-    <div style={{ backgroundImage:`url(${background})`, maxWidth: '100%',backgroundSize:'cover', backgroundRepeat: 'no-repeat'}}>
+    <div >
     {/* <div> */}
-    <div className="i">
+    <div style={{ backgroundImage:`url(${background})`, maxWidth: '100%',backgroundSize:'cover', backgroundRepeat: 'no-repeat'}}>
+    <div className="resume"><a href = {Pdf} target = "_blank">Resume</a></div>
       <div className="i-left">
+      {/* <div className="resume"><a href = {Pdf} target = "_blank">Resume</a></div> */}
         <div className="i-left-wrapper">
         {/* <div className="i-hello">Hello! I am </div> */}
           <h2 className="i-name"> Seung Yoo</h2>
