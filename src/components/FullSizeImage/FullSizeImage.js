@@ -1,5 +1,6 @@
 import React from 'react';
 import casestudy from "../../imges/casestudy.jpg";
+import GroupFive2 from "../../imges/GroupFive2.jpg";
 import { Link} from 'react-router-dom';
 import icon from "../../imges/icon.jpg";
 
@@ -10,7 +11,7 @@ function FullSizeImage() {
     <div className='casestudy'>
       <Link to="/"> <img src={icon}  style={{ width: '1.5rem', height: '1.5rem'}} /> </Link>
     <div >
-      <img src={casestudy} style={{ maxWidth: '100%', backgroundColor: 'white', objectFit: 'contain' }} alt="Full Size Image" /> 
+      <img src={GroupFive2} style={{ maxWidth: '100%', backgroundColor: 'white', objectFit: 'contain' }} alt="Full Size Image" /> 
       {/* <a href={casestudy} style={{ maxWidth: '100%', maxHeight: '100%', objectFit: 'contain' }} target="_blank" rel="noopener noreferrer"> Cast Study </a> */}
     </div>
     </div>
