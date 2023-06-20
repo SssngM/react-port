@@ -41,26 +41,27 @@ export const Productlist = () => {
             <h2 className="p-title"> Tech Girls Social </h2>
             <ul className="p-li">
               <li> Launching non-profit in SF</li>
-              <li> Support Women who are in tech </li> 
-              <li>Organize over 2000 members </li>
+              <li> Support girls in tech </li> 
+              <li>Organize 2000 members </li>
               <li> Buliding the web site</li>
               <li> Figma, React.js for UI </li>
             </ul>
-
-            <a href="https://www.figma.com/file/RpLX82xFYIxrRlCgbRuanJ/tech-girls-social-wireframing?node-id=0%3A1" target="_blank">
+            <div className="a-link">
+            < a href="https://www.figma.com/file/RpLX82xFYIxrRlCgbRuanJ/tech-girls-social-wireframing?node-id=0%3A1" target="_blank">
               {" "}
               Figma Mockup
             </a>
-            <div>
+              <div> 
               <a href="https://www.techgirlssocial.org" target="_blank">
                 {" "}
                 Tech Girls Social Site
               </a>
+              </div>
             </div>
           </div>
         </div>
 
-        <div className="p-list">
+        <div className="p-list"  style={{ backgroundImage:`url(${mesh})`, maxWidth: '100%',backgroundSize:'cover', backgroundRepeat: 'no-repeat'}}>
           <div className="p-des">
           
             <h2 className="p-title"> Group Five </h2>
@@ -70,7 +71,8 @@ export const Productlist = () => {
               <li> Co-found / Frontend Engineer</li>
               <li> Figma, Javscript, React.js for UI </li>
             </ul> 
-            <div className="casestudy"> 
+            <div className="a-link">
+            <div> 
 
             <Link to="/image">Case Study</Link>
             {/* <a href={casestudy} onClick={(event) => { event.preventDefault(); return <FullSizeImage /> }}> View Cast Study</a> */}
@@ -82,11 +84,7 @@ export const Productlist = () => {
               {" "}
               GroupFive Intake{" "}
             </a>
-            <div>
-            {/* <a href="https://github.com/SssngM/sweets_store" target="_blank" rel="noopener noreferrer">
-              {" "}
-              Figma Mockup{" "}
-            </a> */}
+            
             </div>
           </div>
            {/* <a href={casestudy} target="_blank" style={{ maxWidth: '400%', maxHeight: '600%' }}> <Product img={groupfive} /> </a> */}
@@ -106,10 +104,12 @@ export const Productlist = () => {
               <li> Completed tickets</li>
               <li> Vue.js, SASS, Storybook  </li>
             </ul> 
+            <div className="a-link">
             <a href="https://gitlab.com/SssngM/slippers-ui" target="_blank" rel="noopener noreferrer">
               {" "}
               GitLab Code
             </a>
+            </div>
           </div>
         </div>
       </div>
@@ -123,17 +123,18 @@ export const Productlist = () => {
               <div> Personal toy project  </div>
               <div> Javscript, React, Router, Boostrap</div>
             </div> 
-            <br></br>
-            <a href="https://your-sweets.netlify.app" target="_blank" rel="noopener noreferrer">
+            {/* <br></br> */}
+            
+            <a href="https://your-sweets.netlify.app" target="_blank" rel="noopener noreferrer" className="p-li3">
               {" "}
               Sweet Store Site{" "}
             </a>
-            <div>
-            <a href="https://github.com/SssngM/sweets_store" target="_blank" rel="noopener noreferrer">
+            {/* <div>
+            <a href="https://github.com/SssngM/sweets_store" target="_blank" rel="noopener noreferrer" className="p-li3">
               {" "}
               GitHub Code{" "}
             </a>
-            </div>
+            </div> */}
           </div>
         </div>
 
@@ -146,7 +147,7 @@ export const Productlist = () => {
               <div> Vue.js, SCSS, Google book API</div>
             </div> 
             <br></br>
-            <a href="https://github.com/SssngM/hackathon-tour" target="_blank">
+            <a href="https://github.com/SssngM/hackathon-tour" target="_blank" className="p-li3">
               {" "}
               GitHub Code
             </a>
@@ -165,7 +166,7 @@ export const Productlist = () => {
             <br></br>
             <a
               href="https://github.com/SssngM/TodoList-2022" target="_blank"
-              rel="noopener noreferrer">
+              rel="noopener noreferrer" className="p-li3">
               {" "}
               github code{" "}
             </a>

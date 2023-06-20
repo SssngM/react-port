@@ -4,7 +4,8 @@
   overflow: scroll;
   border: 2px solid rgb(183, 226, 226);
   border-radius: 10px;
-  filter: opacity(50%);
+
+  /* filter: opacity(70%); */
 }
 
 .p:hover{

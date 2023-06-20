@@ -10,12 +10,12 @@ import { Link} from 'react-router-dom';
 
 function Intro(props) {
   return (
-    <div  className="intro1" style={{ backgroundImage:`url(${mesh})`, maxWidth: '100%',backgroundSize:'cover', backgroundRepeat: 'no-repeat'}}>
+    <div  className="intro1" style={{ backgroundImage:`url(${background})`, maxWidth: '100%',backgroundSize:'cover', backgroundRepeat: 'no-repeat'}}>
     {/* <div> */}
     <div>
   
    
-    <div className="resume"><a href = {Pdf} target = "_blank">Resume</a></div>
+    <div className="resume"><a href = {Pdf} target = "_blank" className="resume">Resume</a></div>
       <div className="i-left">
       {/* <div className="resume"><a href = {Pdf} target = "_blank">Resume</a></div> */}
         <div className="i-left-wrapper">

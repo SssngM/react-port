@@ -5,7 +5,7 @@ import Aboutme from "../../imges/about.jpg";
 export default function About() {
   return (
     <div className="a">
-      <h3 className="port">ABOUT ME</h3>
+      <div className="port">ABOUT ME</div>
       <div className="all">
         <div className="a-left">
           <div className="a-left-title"> Community Builder</div>
@@ -34,7 +34,7 @@ export default function About() {
           <img src={Aboutme} className="image" />
         </div>
       </div>
-      <div className="a-desc">
+      <div>
         {" "}
         {/* <div> * Was in design and education indutry for years and currently exploring front-end
         engineering. * Love meeting people, learning something new and collaborating with

@@ -5,6 +5,8 @@
   text-align: right;
   padding: 3% 7% 0 0;
   font-size: 1.2vw;
+  background: none;
+  color:rgb(110, 189, 221);
 }
 .i-left {
   /* flex: 1; */
@@ -86,7 +88,7 @@ a {
 }
 
 .i-lines {
-  margin-top: 6%;
+  margin-top: 12%;
   display: flex;
   animation: 3s linear 1s slidein infinite alternate-reverse;
 }

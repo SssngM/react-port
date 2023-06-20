@@ -43,15 +43,15 @@ export const Skill = () => {
       <div className="port"> contact</div >
       <div className= "contact">Feel free to contact me!</div>
       <div className="k-contact">
-        <a href="mailto:seungmyoo525@gmail.com" target="_blank">
+        <a href="mailto:seungmyoo525@gmail.com" target="_blank" className="contact-list">
           {" "}
           <img src={email} />{" "}
         </a>
-        <a href="https://www.linkedin.com/in/seungmin-yoo-01376932" target="_blank">
+        <a href="https://www.linkedin.com/in/seungmin-yoo-01376932" target="_blank" className="contact-list">
           {" "}
           <img src={linkedin} />
         </a>
-        <a href="https://github.com/SssngM" target="_blank">
+        <a href="https://github.com/SssngM" target="_blank" className="contact-list">
           {" "}
           <img src={githublo} />{" "}
         </a>

@@ -4,6 +4,8 @@
   /* flex-direction: column; */
   align-items: center;
   text-align: center;
+  background-color: black;
+  margin-top: 6%;
 }
 .products {
   display: flex;
@@ -17,7 +19,10 @@
 }
 
 .p-list {
-  margin: 5%;
+  background-color: #dcecf5;
+  border-radius: 1em;
+  padding: 5%;
+  margin: 2% 12%;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
@@ -41,21 +46,43 @@
   font-size: 2vw;
   margin-top: 10%;
   font-weight: bold;
-  color: rgb(162, 188, 48);
+  color: rgb(4, 4, 4);
   text-decoration: none;
 }
 
 ul.p-li {
-  list-style-type: circle;
-  font-size: 1.2vw;
+  /* background-color: white;
+  border-radius: 1em;
+  padding-left: 4%; */
+  padding: 0%;
+  list-style-type: none;
+  font-size: 1vw;
   color: rgb(52, 52, 52);
   text-align: left;
+  color: rgb(2, 2, 2)
   /* padding-left:15%; */
 }
 
+li {
+
+  background-color: white;
+    border-radius: 1em;
+    margin: 3%;
+    padding-left: 5%;
+}
+
 a {
-  font-size: 1.2em;
-  color: rgb(109 135 197);
+  font-size: 1em;
+  color: white;
+  background-color: black;
+  border-radius: 1em;
+  padding: 0% 7% 0% 7%;
+  text-align: left;
+}
+ 
+.a-link {
+  padding:5%;
+  text-align: left;
 }
 
 a:hover {
@@ -64,6 +91,7 @@ a:hover {
 /* section {
   font-size: 1.5em;
 } */
+
 
 
 @media only screen and (max-width: 600px) {
@@ -78,7 +106,7 @@ a {
 }
 .p-list {
   padding: 3%;
-  margin: 0;
+  margin: 2%;
   display: flex;
   flex-direction: column-reverse;
   justify-content: space-between;

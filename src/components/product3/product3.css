@@ -22,14 +22,19 @@
   .p-li2 {
     list-style-type: none;
     font-size: 1.2vw;
-    color: rgb(73, 73, 73);
+    color: rgb(147, 145, 145);
   }
-  
+
+.p-li3 {
+  background-color: rgb(247, 247, 244);
+  color: black
+}
+
   .p-title2 {
     font-size: 1.5vw;
     margin-top: 10%;
     font-weight: bold;
-    color: rgb(162, 188, 48);
+    color: rgb(110, 189, 221);
     text-decoration: none;
   }
 
