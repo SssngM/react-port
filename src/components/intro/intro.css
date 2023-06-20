@@ -35,12 +35,11 @@
 }
 
 .i-title {
-  font-size: 1.7vw;
+  font-size: 2vw;
   position: absolute;
   display: flex;
-  align-items: center;
+  /* align-items: center; */
   justify-content: center;
-  text-align: center;
   flex-direction: column;
   margin-top:3%;
   margin-left: 5%;
@@ -51,10 +50,12 @@
 .title-item {
   margin-bottom: 2%;
   font-size: 1em
+  
 }
 
 .title-sub {
   font-size: 0.7em;
+  text-align: left;
 }
 /* .i-right {
   flex: 1;

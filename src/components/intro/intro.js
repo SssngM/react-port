@@ -22,9 +22,9 @@ function Intro(props) {
         {/* <div className="i-hello">Hello! I am </div> */}
           <h2 className="i-name"> Seung Yoo</h2>
           <div className="i-title">
-            <div className="title-item">I'm a Product Designer </div> 
-              <div className="title-sub"> with Frontend coding skills.</div>
-            <div className="title-item">Based in San Francisco. </div>
+            <div className="title-item">Product Designer </div> 
+              <div className="title-sub">Frontend coding skills</div>
+            <div className="title-sub">San Francisco Based </div>
             {/* <div className="title-item">
               Recently finished working at GitLab,  {" "}
             <div>{" "}<a href="https://design.gitlab.com/">Slippers(Pajamas)</a>UI Design System. </div>

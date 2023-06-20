@@ -41,7 +41,8 @@ export const Productlist = () => {
             <h2 className="p-title"> Tech Girls Social </h2>
             <ul className="p-li">
               <li> Launching non-profit in SF</li>
-              <li> Organize over 2000 members </li>
+              <li> Support Women who are in tech </li> 
+              <li>Organize over 2000 members </li>
               <li> Buliding the web site</li>
               <li> Figma, React.js for UI </li>
             </ul>
