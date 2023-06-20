@@ -3,15 +3,18 @@ import "./intro.css";
 import Introimg from "../../imges/intromac2.jpg";
 import Ani from "../../imges/port_ani.gif"
 import background from "../../imges/background.jpg"
+import mesh from "../../imges/mesh.jpg"
 import Pdf from '../../imges/Seung_resume.pdf';
 import { Link} from 'react-router-dom';
 
 
 function Intro(props) {
   return (
-    <div >
+    <div  className="intro1" style={{ backgroundImage:`url(${mesh})`, maxWidth: '100%',backgroundSize:'cover', backgroundRepeat: 'no-repeat'}}>
     {/* <div> */}
-    <div style={{ backgroundImage:`url(${background})`, maxWidth: '100%',backgroundSize:'cover', backgroundRepeat: 'no-repeat'}}>
+    <div>
+  
+   
     <div className="resume"><a href = {Pdf} target = "_blank">Resume</a></div>
       <div className="i-left">
       {/* <div className="resume"><a href = {Pdf} target = "_blank">Resume</a></div> */}
@@ -19,7 +22,8 @@ function Intro(props) {
         {/* <div className="i-hello">Hello! I am </div> */}
           <h2 className="i-name"> Seung Yoo</h2>
           <div className="i-title">
-            <div className="title-item">Hello, I'm a UX Designer / Frontend Engineer </div>
+            <div className="title-item">I'm a Product Designer </div> 
+              <div className="title-sub"> with Frontend coding skills.</div>
             <div className="title-item">Based in San Francisco. </div>
             {/* <div className="title-item">
               Recently finished working at GitLab,  {" "}
