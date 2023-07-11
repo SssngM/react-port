@@ -13,6 +13,8 @@ import tech from "../../imges/tech.png";
 import Vueport from "../../imges/vue-port.png";
 import slprecoding from "../../imges/slprecoding.mov";
 import groupfive from "../../imges/groupfive.png";
+import cover1 from "../../imges/cover1.jpg"
+
 import mesh from "../../imges/mesh.jpg"
 // import GroupFive2 from "../../imges/GroupFive2.jpg";
 
@@ -35,7 +37,31 @@ export const Productlist = () => {
       <h3 className="port"> PROJECTS </h3>
       <div className="products">
 
-        <div className="p-list">
+      <div className="p-list">
+          <div className="p-des">
+            <h2 className="p-title"> Habble  </h2> 
+            <ul className="p-li">
+               <li> Human Communication app with AI</li> 
+              <li> Chat GPT API</li>
+              <li> Designed by me </li> 
+            </ul>
+            <div className="a-link">
+            < a href="javascript:void(0)" target="">
+              {" "}
+              Coming up soon
+            </a>
+              {/* <div> 
+              <a href="https://www.techgirlssocial.org" target="_blank">
+                {" "}
+                Tech Girls Social Site
+              </a>
+              </div> */}
+            </div>
+          </div>
+          <Product img={cover1} />
+        </div>
+
+        <div className="p-list" style={{ backgroundImage:`url(${mesh})`, maxWidth: '100%',backgroundSize:'cover', backgroundRepeat: 'no-repeat'}}>
           <Product img={tech} />
           <div className="p-des">
             <h2 className="p-title"> Tech Girls Social </h2>
@@ -44,7 +70,7 @@ export const Productlist = () => {
               <li> Support girls in tech </li> 
               <li>Organize 2000 members </li>
               <li> Buliding the web site</li>
-              <li> Figma, React.js for UI </li>
+              <li> Designed & Engineered by me </li>
             </ul>
             <div className="a-link">
             < a href="https://www.figma.com/file/RpLX82xFYIxrRlCgbRuanJ/tech-girls-social-wireframing?node-id=0%3A1" target="_blank">
@@ -61,7 +87,7 @@ export const Productlist = () => {
           </div>
         </div>
 
-        <div className="p-list"  style={{ backgroundImage:`url(${mesh})`, maxWidth: '100%',backgroundSize:'cover', backgroundRepeat: 'no-repeat'}}>
+        <div className="p-list"  >
           <div className="p-des">
           
             <h2 className="p-title"> Group Five </h2>
@@ -69,7 +95,7 @@ export const Productlist = () => {
             <ul className="p-li">
               <li> Local Group Meeting, API waitList system</li>
               <li> Co-found / Frontend Engineer</li>
-              <li> Figma, Javscript, React.js for UI </li>
+              <li> Designed & Engineered by me </li>
             </ul> 
             <div className="a-link">
             <div> 
@@ -95,7 +121,7 @@ export const Productlist = () => {
 
 
 
-        <div className="p-list">
+        <div className="p-list" style={{ backgroundImage:`url(${mesh})`, maxWidth: '100%',backgroundSize:'cover', backgroundRepeat: 'no-repeat'}}>
           <Product2 slprecoding={slprecoding}/>
           <div className="p-des">
             <h2 className="p-title"> Engineer Internship, GitLab </h2>

@@ -20,7 +20,7 @@ export default function About() {
           <div className="a-left-title">Design Thinker </div>
           <div className="a-left-wrapper"> 
           <div> Problems solver, happily creatively </div>
-          Passion for new feature 
+          Experience visual design & Passion for new feature 
           </div> 
 
           <div className="a-left-title">Frontend coding skills</div>
