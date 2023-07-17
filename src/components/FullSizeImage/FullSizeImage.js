@@ -1,6 +1,7 @@
 import React from 'react';
 import casestudy from "../../imges/casestudy.jpg";
 import GroupFive2 from "../../imges/GroupFive2.jpg";
+import Habble from "../../imges/Habble.jpg";
 import { Link} from 'react-router-dom';
 import icon from "../../imges/icon.jpg";
 
@@ -21,7 +22,8 @@ function FullSizeImage() {
 }
 
 
-export default FullSizeImage
+
+export default FullSizeImage;
 
 
 
@@ -50,29 +52,3 @@ export default FullSizeImage
 // export default FullSizeImage
 
 
-
-// import React from 'react';
-// import exampleImage from "../../imges/casestudy.jpg";
-
-// function FullSizeImage() {
-//   const openImage = () => {
-//     const url = exampleImage;
-//     window.open(url, '_blank');
-//   };
-
-//   return (
-//     <div object width="100%" height= '100%'  >
-//       <a href="#" onClick={openImage} style={{ maxWidth: '100%', maxHeight: '100%' }}>View Full Size Image</a>
-//     </div>
-//   );
-// }
-
-// function FullSizeImage() {
-//   return (
-//     <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100vh' }}>
-//       <img src={exampleImage} style={{ maxWidth: '100%', maxHeight: '100%' }} /> View Full Size Image
-//     </div>
-//   );
-// }
-
-// export default FullSizeImage

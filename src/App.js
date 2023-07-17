@@ -7,6 +7,7 @@ import Intro from "./components/intro/intro"
 // import Skill from "./components/skill/skill"
 // import Product2 from "./components/product2/product2"
 import FullSizeImage from "./components/FullSizeImage/FullSizeImage"
+import FullSizeImage2 from "./components/FullSizeImage2/FullSizeImage2"
 import { BrowserRouter, Router, Switch, Routes,Route} from 'react-router-dom';
 
 
@@ -25,6 +26,7 @@ function App() {
     <Routes>
       <Route path="/" element={<Home/>} />
       <Route path="/image" element={<FullSizeImage/>} />
+      <Route path="/image2" element={<FullSizeImage2/>} />
     </Routes>
     </BrowserRouter>
     </div>

@@ -46,17 +46,16 @@ export const Productlist = () => {
               <li> Designed by me </li> 
             </ul>
             <div className="a-link">
-            < a href="javascript:void(0)" target="">
-              {" "}
-              Coming up soon
-            </a>
-              {/* <div> 
-              <a href="https://www.techgirlssocial.org" target="_blank">
+            <Link to="/image2">Case Study</Link>
+
+
+            </div> 
+            <div className="a-link">
+              <a href="https://habble.vercel.app/" target="_blank">
                 {" "}
-                Tech Girls Social Site
+                Habble
               </a>
-              </div> */}
-            </div>
+              </div>
           </div>
           <Product img={cover1} />
         </div>
@@ -77,13 +76,14 @@ export const Productlist = () => {
               {" "}
               Figma Mockup
             </a>
-              <div> 
+            </div>
+              <div className="a-link">  
               <a href="https://www.techgirlssocial.org" target="_blank">
                 {" "}
                 Tech Girls Social Site
               </a>
               </div>
-            </div>
+
           </div>
         </div>
 
@@ -98,14 +98,13 @@ export const Productlist = () => {
               <li> Designed & Engineered by me </li>
             </ul> 
             <div className="a-link">
-            <div> 
-
             <Link to="/image">Case Study</Link>
             {/* <a href={casestudy} onClick={(event) => { event.preventDefault(); return <FullSizeImage /> }}> View Cast Study</a> */}
             {/* <a href={casestudy} style={{  width: '100%', height: '100%', display: 'flex', justifyContent: 'center', alignItems: 'center', backgroundColor: 'white'}} target="_blank" rel="noopener noreferrer">
               Cast Study{" "}
             </a> */}
             </div>
+            <div className="a-link">
             <a href="https://groupfive.co" target="_blank" rel="noopener noreferrer">
               {" "}
               GroupFive Intake{" "}
@@ -149,7 +148,8 @@ export const Productlist = () => {
               <div> Personal toy project  </div>
               <div> Javscript, React, Router, Boostrap</div>
             </div> 
-            {/* <br></br> */}
+
+            <br></br>
             
             <a href="https://your-sweets.netlify.app" target="_blank" rel="noopener noreferrer" className="p-li3">
               {" "}
