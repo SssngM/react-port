@@ -1,5 +1,6 @@
 .intro1 {
   height: 38vw;
+  padding-bottom: 5%;
 }
 .resume {
   text-align: right;
@@ -32,18 +33,20 @@
 .i-name {
   /* margin-top: 10%; */
   font-size: 7vw;
-  position: relative;
-  padding-right: 35%;
+  padding-right: 10%;
+  color: beige;
+  padding-top:5%;
 }
 
 .i-title {
+  color: beige;
   font-size: 2vw;
   position: absolute;
   display: flex;
   /* align-items: center; */
   justify-content: center;
   flex-direction: column;
-  margin-top:3%;
+  margin-top:5%;
   margin-left: 5%;
   padding-left: 55%;
   width: max-content;
@@ -88,7 +91,7 @@ a {
 }
 
 .i-lines {
-  margin-top: 12%;
+  margin-top: 5%;
   display: flex;
   animation: 3s linear 1s slidein infinite alternate-reverse;
 }

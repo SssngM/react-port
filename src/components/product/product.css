@@ -2,15 +2,15 @@
   width: 40vw;
   height: 60vmin;
   overflow: scroll;
-  border: 2px solid rgb(183, 226, 226);
+  border:2px solid rgba(227, 227, 227, 0.041);
   border-radius: 10px;
 
   /* filter: opacity(70%); */
 }
 
 .p:hover{
-  border: 2px solid rgb(61, 233, 227);
-  filter: opacity(100%);
+  border: 2px solid #8298ff75;
+
 }
 
 img:hover {

@@ -7,13 +7,15 @@ video {
     width: 48vw;
     height: 50vmin;
     overflow: scroll;
-    border: 2px solid rgb(183, 226, 226);
+    border: 2px solid rgba(227, 227, 227, 0.041);
     border-radius: 10px;
     filter: none;
     margin-right: 3%;
   }
 
-  
+.p-video:hover {
+    border: 2px solid #8298ff75;
+}  
 
 @media only screen and (max-width: 400px) {
 
@@ -25,7 +27,7 @@ video {
 .p-video {
     width: 90vw;
     overflow: scroll;
-    border: 2px solid rgb(183, 226, 226);
+    border: 2px solid rgba(227, 227, 227, 0.041);
     border-radius: 10px;
     filter: opacity(100%);
     

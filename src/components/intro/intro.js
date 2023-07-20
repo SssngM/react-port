@@ -6,6 +6,7 @@ import background from "../../imges/background.jpg"
 import mesh from "../../imges/mesh.jpg"
 import Pdf from '../../imges/Seung_resume.pdf';
 import { Link} from 'react-router-dom';
+import Aboutme from "../../imges/about.jpg";
 
 
 function Intro(props) {
@@ -30,9 +31,11 @@ function Intro(props) {
             <div>{" "}<a href="https://design.gitlab.com/">Slippers(Pajamas)</a>UI Design System. </div>
             </div> */}
           </div>
+
         </div>
       </div>
       <div className="i-right">
+
         {/* <img src={Introimg} className="intro-img" /> */}
         {/* <video controls autoPlay loop muted>
           <source src={myVideo} type="video/mp4"></source>
