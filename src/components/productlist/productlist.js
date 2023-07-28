@@ -100,14 +100,10 @@ export const Productlist = () => {
             <ul className="p-li">
               <li> Local Group Meeting, API waitList system</li>
               <li> Co-found / Frontend Engineer</li>
-              <li> Designed & Engineered by me </li>
+              <li> Designed by me </li>
             </ul> 
             <div className="a-link">
             <Link to="/image">Case Study</Link>
-            {/* <a href={casestudy} onClick={(event) => { event.preventDefault(); return <FullSizeImage /> }}> View Cast Study</a> */}
-            {/* <a href={casestudy} style={{  width: '100%', height: '100%', display: 'flex', justifyContent: 'center', alignItems: 'center', backgroundColor: 'white'}} target="_blank" rel="noopener noreferrer">
-              Cast Study{" "}
-            </a> */}
             </div>
             <div className="a-link">
             <a href="https://groupfive.co" target="_blank" rel="noopener noreferrer">
