@@ -60,7 +60,8 @@ ul.p-li {
   font-size: 1vw;
   color: rgb(52, 52, 52);
   text-align: left;
-  color: rgb(2, 2, 2)
+  color: rgb(2, 2, 2);
+  /* width: 40vh; */
   /* padding-left:15%; */
 }
 
