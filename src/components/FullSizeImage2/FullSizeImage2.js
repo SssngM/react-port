@@ -1,5 +1,5 @@
 import React from 'react';
-import Habble from "../../imges/Habble.jpg";
+import  Habble from "../../imges/habble-CS.jpg";
 import { Link} from 'react-router-dom';
 import icon from "../../imges/icon.jpg";
 
