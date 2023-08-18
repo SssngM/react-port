@@ -4,7 +4,7 @@ import Introimg from "../../imges/intromac2.jpg";
 import Ani from "../../imges/port_ani.gif"
 import background from "../../imges/background.jpg"
 import mesh from "../../imges/mesh.jpg"
-import Pdf from '../../imges/Seung Yoo Design resume.pdf';
+import Pdf from '../../imges/Seung Yoo-Design resume.pdf';
 // import Pdf from '../../imges/habble case study.pdf'
 import { Link} from 'react-router-dom';
 import Aboutme from "../../imges/about.jpg";

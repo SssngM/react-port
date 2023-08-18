@@ -69,12 +69,12 @@ li {
 
   background-color: white;
     border-radius: 1em;
-    margin: 3%;
+    margin: 3% 0;
     padding-left: 5%;
 }
 
 a {
-  font-size: 1em;
+  font-size: 2vh;
   color: white;
   background-color: black;
   border-radius: 1em;
@@ -83,7 +83,7 @@ a {
 }
  
 .a-link {
-  padding:3%;
+  padding:1%;
   text-align: left;
 }
 
@@ -99,6 +99,11 @@ a:hover {
 @media only screen and (max-width: 600px) {
 a {
   font-size: 1.3vh;
+}
+
+.a-link {
+  padding:1%;
+  text-align: center;
 }
 .port {
   font-size: 2vh;
@@ -118,8 +123,7 @@ a {
 
 .p-des {
   font-size: 1.2vw;
-  margin: auto;
-  margin-bottom: 3%;
+  margin: 0% 25% 0%;
   align-items: strech;
   color: rgb(98, 97, 97);
 }
@@ -131,4 +135,8 @@ a {
   background-color: 'white'
 }
 
+ul.p-li {
+  text-align: center;
+  font-size: 1.5em;
+}
 }
