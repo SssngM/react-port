@@ -11,22 +11,22 @@ export default function About() {
           <div className="a-left-title"> Community Builder</div>
           <div div className="a-left-wrapper">
             
-            organize local community in tech
-            <div>Launching non-profit as co-organizer</div>
+          Co-organizing the launch of a non-profit initiative aimed 
+            <div>at the local tech community</div>
           </div>
           {/* <div className="a-left-wrapper">
             with diversity equity & inclusion
           </div> */}
           <div className="a-left-title">Design Thinker </div>
           <div className="a-left-wrapper"> 
-          <div> Problems solver, happily creatively </div>
-          Experience visual design & Passion for new feature 
+          <div> Problem solver who enjoys creative thinking</div>
+          Experienced in visual design with a passion for new features.
           </div> 
 
           <div className="a-left-title">Frontend coding skills</div>
           <div className="a-left-wrapper">
-        <div> Dive into details</div>
-        <div> Vision for how to make things happen</div>
+        <div> Enjoy delving into details</div>
+        <div> Clear vision for making things happe.</div>
         </div>
         </div>
 
