@@ -10,7 +10,7 @@ function FullSizeImage2() {
   
   
       <div>
-        <Link to="/"  style={{ width: '1.5rem', height: '1.5rem', margin:'9%', backgroundColor:'rgb(0 0 0)'}} > 
+        <Link to="/"  style={{ width: '1.5rem', height: '1.5rem', position: 'absolute' , margin:'9%',marginTop:'3%', backgroundColor:'rgb(0 0 0)'}} > 
          Back
         </Link>
       <div >
