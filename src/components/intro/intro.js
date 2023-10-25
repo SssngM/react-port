@@ -27,10 +27,6 @@ function Intro(props) {
             <div className="title-item">Product Designer </div> 
               <div className="title-sub">Frontend coding skills</div>
             <div className="title-sub">San Francisco Based </div>
-            {/* <div className="title-item">
-              Recently finished working at GitLab,  {" "}
-            <div>{" "}<a href="https://design.gitlab.com/">Slippers(Pajamas)</a>UI Design System. </div>
-            </div> */}
           </div>
 
         </div>

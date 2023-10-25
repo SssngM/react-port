@@ -1,5 +1,7 @@
 import React from "react";
 import "./productlist.css";
+// import { BiBarChartSquare } from "react-icons/ai";
+
 import Product from "../product/product";
 import Product2 from "../product2/product2";
 import Product3 from "../product3/product3";
@@ -46,7 +48,8 @@ export const Productlist = () => {
               <li> Designed by me </li> 
             </ul>
             <div className="a-link">
-            <Link to="/image2">Case Study</Link>
+         
+            <Link to="/image2"> View Case Study</Link>
             </div> 
             <div className="a-link">
               <a href="https://habble.vercel.app/" target="_blank">
@@ -55,7 +58,7 @@ export const Productlist = () => {
               </a>
             </div>
             <div className="a-link">
-              <a href="https://www.joincolab.io/projects/habble" target="_blank">
+              <a href="https://www.joincolab.io/product/habble" target="_blank">
                 {" "}
                 Habble portfolio, CoLab
               </a>
@@ -78,12 +81,12 @@ export const Productlist = () => {
               <li> Designed and co-founded by me </li>
             </ul> 
             <div className="a-link">
-            <Link to="/image">Case Study</Link>
+            <Link to="/image">View Case Study</Link>
             </div>
             <div className="a-link">
             <a href="https://groupfive.co" target="_blank" rel="noopener noreferrer">
               {" "}
-              GroupFive Intake{" "}
+              GroupFive Intake Site{" "}
             </a>
             
             </div>

@@ -14,7 +14,7 @@ function FullSizeImage2() {
          Back
         </Link>
       <div >
-        <img src={Habble} style={{ maxWidth: '100%', backgroundColor: 'white', objectFit: 'contain' }} alt="Full Size Image" /> 
+        <img src={Habble} style={{ maxWidth: '100%', marginTop:'1%',backgroundColor: 'white', objectFit: 'contain' }} alt="Full Size Image" /> 
         {/* <a href={casestudy} style={{ maxWidth: '100%', maxHeight: '100%', objectFit: 'contain' }} target="_blank" rel="noopener noreferrer"> Cast Study </a> */}
       </div>
       </div>

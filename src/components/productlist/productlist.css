@@ -78,17 +78,18 @@ a {
   color: white;
   background-color: black;
   border-radius: 1em;
-  padding: 0% 7% 0% 7%;
+  padding: 0.5% 7% 0.5% 7%;
   text-align: left;
 }
  
 .a-link {
-  padding:1%;
+  padding-top:8%;
   text-align: left;
 }
 
 a:hover {
-  text-decoration: underline;
+  /* text-decoration: underline; */
+  background-color:rgb(71, 78, 84);
 }
 /* section {
   font-size: 1.5em;
@@ -105,6 +106,7 @@ a {
   padding:1%;
   text-align: center;
 }
+
 .port {
   font-size: 2vh;
   margin: 0;
