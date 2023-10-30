@@ -86,7 +86,7 @@ a {
   border-radius: 1em;
   padding: 0.5% 7% 0.5% 7%;
   text-align: left;
-  outline: solid #212121;
+  outline: solid 0.1em #212121;
 }
  
 .a-link {
@@ -120,6 +120,7 @@ a {
 .port {
   font-size: 2vh;
   margin: 0;
+  padding-top:10%
 }
 .p-title {
   font-size: 2vh;
