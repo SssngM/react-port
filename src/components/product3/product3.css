@@ -27,7 +27,8 @@
 
 .p-li3 {
   background-color: rgb(247, 247, 244);
-  color: black
+  color: black;
+  outline: solid rgb(247, 247, 244);;
 }
 
   .p-title2 {

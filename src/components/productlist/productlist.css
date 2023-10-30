@@ -5,7 +5,13 @@
   align-items: center;
   text-align: center;
   background-color: #212121;
-  padding-top: 5%;
+  /* padding-top: 5%; */
+}
+
+.port {
+  font-size: 2vw;
+  text-align: center;
+  padding-top: 2%;
 }
 .products {
   display: flex;
@@ -75,11 +81,12 @@ li {
 
 a {
   font-size: 2vh;
-  color: white;
-  background-color: black;
+  color: #cbcbcb;
+  background-color: #212121;;
   border-radius: 1em;
   padding: 0.5% 7% 0.5% 7%;
   text-align: left;
+  outline: solid #212121;
 }
  
 .a-link {
@@ -89,7 +96,10 @@ a {
 
 a:hover {
   /* text-decoration: underline; */
-  background-color:rgb(71, 78, 84);
+  background-color: transparent;
+  transition-duration: 0.3s;
+  color: rgb(242, 110, 154); 
+
 }
 /* section {
   font-size: 1.5em;
@@ -110,7 +120,6 @@ a {
 .port {
   font-size: 2vh;
   margin: 0;
-  
 }
 .p-title {
   font-size: 2vh;

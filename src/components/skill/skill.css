@@ -5,10 +5,7 @@
 }
 
 
-.port {
-    font-size: 2vw;
-    text-align: center;
-}
+
 
 .contact {
     font-size: 1vw;
@@ -27,6 +24,7 @@
 
 .contact-list {
 background:none;
+outline:0;
 }
 
 .k-contact {
