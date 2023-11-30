@@ -10,11 +10,11 @@ function FullSizeImage() {
 
 
     <div>
-      <Link to="/"  style={{ width: '1.5rem', height: '1.5rem', margin:'9%', backgroundColor:'rgb(0 0 0 )'}} > 
+      <Link to="/"  className= 'custom-link1' > 
        Back
       </Link>
     <div >
-      <img src={GroupFive2} style={{ maxWidth: '100%', backgroundColor: 'white', objectFit: 'contain' }} alt="Full Size Image" /> 
+      <img src={GroupFive2} style={{ maxWidth: '100%', backgroundColor: 'white', objectFit: 'contain', paddingTop:'5%' }} alt="Full Size Image" /> 
       {/* <a href={casestudy} style={{ maxWidth: '100%', maxHeight: '100%', objectFit: 'contain' }} target="_blank" rel="noopener noreferrer"> Cast Study </a> */}
     </div>
     </div>

@@ -11,11 +11,12 @@
 .port {
   font-size: 2vw;
   text-align: center;
-  padding-top: 2%;
+  padding-bottom: 2%;
 }
 .products {
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 
 .products2 {
@@ -25,15 +26,17 @@
 }
 
 .p-list {
-  background-color: #dce8f3;
+  background-color: #f8fafd;
   border-radius: 1em;
   padding: 5%;
   margin: 2% 12%;
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
-  
+  justify-content: space-between;
+
+  width: 60vw;
 }
+
 
 
 
@@ -67,45 +70,71 @@ ul.p-li {
   color: rgb(52, 52, 52);
   text-align: left;
   color: rgb(2, 2, 2);
-  /* width: 40vh; */
-  /* padding-left:15%; */
+  padding-bottom: 5%;
+
 }
 
 li {
 
-  background-color: white;
+  /* background-color: white; */
     border-radius: 1em;
     margin: 3% 0;
     padding-left: 5%;
+    font-size: 2vh;
 }
 
 a {
-  font-size: 2vh;
+  text-decoration: none;
   color: #cbcbcb;
-  background-color: #212121;;
+  background-color: #212121;
+  outline: solid 0.1em #212121;
   border-radius: 1em;
+  padding-top:5%;
+  padding-left: 5%;
+  font-size: 2vh;
   padding: 0.5% 7% 0.5% 7%;
   text-align: left;
-  outline: solid 0.1em #212121;
 }
  
 .a-link {
-  padding-top:8%;
   text-align: left;
+  margin-bottom: 5%;
+  margin-left: 5%;
 }
 
-a:hover {
+.a-link:hover {
   /* text-decoration: underline; */
   background-color: transparent;
   transition-duration: 0.3s;
-  color: rgb(242, 110, 154); 
+  color: #94b1fa; 
+}
 
+a:hover {
+  color: #94b1fa; 
+  background-color: transparent;
 }
 /* section {
   font-size: 1.5em;
 } */
 
+.p-des {
+  width: 30vmin;
+}
 
+.custom-link1 { 
+  width: 1.5rem;
+  height: 1.5rem;
+  position: absolute;
+  margin:9%;
+  margin-top:3%;
+  background-color:rgb(0 0 0)
+}
+
+.custom-link {
+  all: unset;
+  cursor: pointer;
+  /* Add any other styles you want to customize */
+}
 
 @media only screen and (max-width: 600px) {
 a {
@@ -120,7 +149,7 @@ a {
 .port {
   font-size: 2vh;
   margin: 0;
-  padding-top:10%
+  padding:10%
 }
 .p-title {
   font-size: 2vh;
@@ -131,6 +160,7 @@ a {
   display: flex;
   flex-direction: column-reverse;
   justify-content: space-between;
+  width: fit-content;
 }
 
 .p-des {
@@ -138,6 +168,8 @@ a {
   margin: 0% 25% 0%;
   align-items: strech;
   color: rgb(98, 97, 97);
+  /* width: 26vw; */
+  width: auto;
 }
 
 .casestudy img {

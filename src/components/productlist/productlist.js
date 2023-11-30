@@ -36,6 +36,7 @@ export const Productlist = () => {
   
   return (
     <div className="pl">
+    
       <h3 className="port"> PROJECTS </h3>
       <div className="products">
 
@@ -43,9 +44,9 @@ export const Productlist = () => {
           <div className="p-des">
             <h2 className="p-title"> Habble  </h2> 
             <ul className="p-li">
-               <li> <div>  AI-powered language learning program </div></li> 
-              <li> Chat GPT API</li>
-              <li> Designed by me </li> 
+               <li> <div>  * Improve speaking skills with AI    {" "}   </div></li> 
+              <li>  * Chat GPT API</li>
+              <li> * Designed by me </li> 
             </ul>
             <div className="a-link">
          
@@ -65,28 +66,33 @@ export const Productlist = () => {
             </div>
 
           </div>
+          <Link to="/image2" className="custom-link">
           <Product img={cover1} />
+          </Link>
+
         </div>
 
 
         <div className="p-list" style={{ backgroundImage:`url(${mesh})`, maxWidth: '100%',backgroundSize:'cover', backgroundRepeat: 'no-repeat'}} >
+       
+        <Link to="/image" className="custom-link">
         <Product img={groupfive} /> 
+        </Link>
           <div className="p-des">
           
             <h2 className="p-title"> Group Five </h2>
 
             <ul className="p-li">
-              <li> Local Small Group Hangouts</li>
-              <li> Twilio API waitList system</li>
-              <li> Designed and co-founded by me </li>
+              <li> * Local Group Hangouts</li>
+              <li> * Twilio API waitList system</li>
+              <li> * Designed, co-founded</li>
             </ul> 
             <div className="a-link">
             <Link to="/image">View Case Study</Link>
             </div>
             <div className="a-link">
             <a href="https://groupfive.co" target="_blank" rel="noopener noreferrer">
-              {" "}
-              GroupFive Intake Site{" "}
+              {" "} GroupFive Intake Site{" "}
             </a>
             
             </div>
@@ -98,10 +104,10 @@ export const Productlist = () => {
           <div className="p-des">
             <h2 className="p-title"> Tech Girls Social </h2>
             <ul className="p-li">
-              <li> Launching non-profit in SF</li>
-              <li>Organize 2000+ members </li>
-              <li> Buliding the web site</li>
-              <li> Designed & Engineered by me </li>
+              <li> * Launching non-profit SF</li>
+              <li> * Organize 2500+ members </li>
+              <li> * Buliding the web site</li>
+              <li> * Designed & Engineered  </li>
             </ul>
             <div className="a-link">
             < a href="https://www.figma.com/file/RpLX82xFYIxrRlCgbRuanJ/tech-girls-social-wireframing?node-id=0%3A1" target="_blank">
@@ -110,13 +116,16 @@ export const Productlist = () => {
             </a>
             </div>
               <div className="a-link">  
-              <a href="https://www.techgirlssocial.org" target="_blank">
+              <a href="https://www.techgirlssocial.org" rel="external">
                 {" "}
                 Tech Girls Social Site
               </a>
               </div>
           </div>
-          <Product img={tech} />
+          <Link to="https://www.techgirlssocial.org/"  target="_blank" className="custom-link">
+          <Product 
+          img={tech}  />
+          </Link>
         </div>
 
 
@@ -130,14 +139,14 @@ export const Productlist = () => {
           <div className="p-des">
             <h2 className="p-title"> GitLab </h2>
             <ul className="p-li">
-              <li> Slippers(Pajamas)UI Design System</li>
-              <li> Completed tickets as a Frontend Engineer</li>
-              <li> Vue.js, SASS, Storybook  </li>
+              <li> * Slippers(Pajamas)UI Design System</li>
+              <li> * Completed tickets as a Frontend Engineer</li>
+              <li> * Vue.js, SASS, Storybook  </li>
             </ul> 
             <div className="a-link">
-            <a href="https://gitlab.com/SssngM/slippers-ui" target="_blank" rel="noopener noreferrer">
+            <a href="https://gitlab-com.gitlab.io/marketing/digital-experience/slippers-ui/?path=/story/intro--page" target="_blank" rel="noopener noreferrer">
               {" "}
-              GitLab Code
+              GitLab Design System
             </a>
             </div>
           </div>
