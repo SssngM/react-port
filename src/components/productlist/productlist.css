@@ -99,7 +99,7 @@ a {
   padding: 0.5% 7% 0.5% 7%;
   text-align: left;
   text-align: left;
-  margin-bottom: 5%;
+  margin-bottom: 8%;
   margin-left: 5%;
   width: fit-content;
 }
@@ -145,13 +145,13 @@ a {
 }
 
 .a-link {
-  padding:1%;
+  padding:2% 10%;
   text-align: center;
   display: flex;
   flex-direction: column-reverse;
   justify-content: space-between;
   width: auto;
-  margin: 2% 15%;
+  /* margin: 2% 15%; */
   border-radius: 1em;
 }
 
