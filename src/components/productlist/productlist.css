@@ -90,7 +90,6 @@ a {
  
 .a-link {
   text-decoration: none;
-  color: #cbcbcb;
   background-color: #212121;
   outline: solid 0.1em #212121;
   border-radius: 1em;
@@ -105,12 +104,10 @@ a {
   width: fit-content;
 }
 
-.a-link:hover {
-  /* text-decoration: underline; */
+/* .a-link:hover {
   background-color: transparent;
   transition-duration: 0.3s;
-  color: #94b1fa; 
-}
+} */
 
 a:hover {
   color: #94b1fa; 
@@ -158,10 +155,7 @@ a {
 a:hover {
   color: #94b1fa; 
   background-color: transparent;
-}
-.a-link:hover {
-  color: #94b1fa; 
-  background-color: transparent;
+  border-radius: 1em;
 }
 
 
