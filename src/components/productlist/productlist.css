@@ -155,8 +155,10 @@ a {
   flex-direction: column-reverse;
   justify-content: space-between;
   width: auto;
-  /* margin: 2% 15%; */
+  font-size: 1.5vh;
+  margin: 2% 15%;
   border-radius: 1em;
+  outline: solid 0.1em #212121;
 }
 
 a:hover {
