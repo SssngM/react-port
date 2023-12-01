@@ -104,10 +104,10 @@ a {
   width: fit-content;
 }
 
-/* .a-link:hover {
+.a-link:hover {
   background-color: transparent;
   transition-duration: 0.3s;
-} */
+}
 
 a:hover {
   color: #94b1fa; 
@@ -140,6 +140,8 @@ a:hover {
 @media only screen and (max-width: 600px) {
 a {
   font-size: 1.3vh;
+  text-decoration: none;
+  color: #cbcbcb;
 }
 
 .a-link {
@@ -150,6 +152,8 @@ a {
   justify-content: space-between;
   width: auto;
   margin: 2% 15%;
+  border-radius: 1em;
+  
 }
 
 a:hover {
@@ -158,6 +162,10 @@ a:hover {
   border-radius: 1em;
 }
 
+.a-link:hover {
+  background-color: transparent;
+  transition-duration: 0.3s;
+}
 
 .port {
   font-size: 2vh;
