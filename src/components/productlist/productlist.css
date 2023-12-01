@@ -86,17 +86,19 @@ li {
 a {
   text-decoration: none;
   color: #cbcbcb;
+} 
+ 
+.a-link {
+  text-decoration: none;
+  color: #cbcbcb;
   background-color: #212121;
   outline: solid 0.1em #212121;
   border-radius: 1em;
   padding-top:5%;
-  padding-left: 5%;
+  padding-left: 6%;
   font-size: 2vh;
   padding: 0.5% 7% 0.5% 7%;
   text-align: left;
-}
- 
-.a-link {
   text-align: left;
   margin-bottom: 5%;
   margin-left: 5%;
@@ -121,14 +123,14 @@ a:hover {
   width: 30vmin;
 }
 
-.custom-link1 { 
+/* .custom-link1 { 
   width: 1.5rem;
   height: 1.5rem;
   position: absolute;
   margin:9%;
   margin-top:3%;
   background-color:rgb(0 0 0)
-}
+} */
 
 .custom-link {
   all: unset;

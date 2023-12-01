@@ -16,6 +16,7 @@ import Vueport from "../../imges/vue-port.png";
 import slprecoding from "../../imges/slprecoding.mov";
 import groupfive from "../../imges/groupfive.png";
 import cover1 from "../../imges/cover1.jpg"
+import comSign from "../../imges/comSign.jpg"
 
 import mesh from "../../imges/mesh.jpg"
 // import GroupFive2 from "../../imges/GroupFive2.jpg";
@@ -40,13 +41,42 @@ export const Productlist = () => {
       <h3 className="port"> PROJECTS </h3>
       <div className="products">
 
+      <div className="p-list" style={{ backgroundImage:`url(${mesh})`, maxWidth: '100%',backgroundSize:'cover', backgroundRepeat: 'no-repeat',   overflow: 'hidden'}} >
+       
+   
+       <Product img={comSign} /> 
+
+         <div className="p-des">
+         
+           <h2 className="p-title"> Compass </h2>
+
+           <ul className="p-li">
+             <li> * SF School management platform</li>
+             <li> * Individual education plans </li>
+             <li> * Designed with team</li>
+           </ul> 
+           <div className="a-link">
+           <a href="">coming soon</a>
+           </div>
+           {/* <div className="a-link"> */}
+           {/* <a href="https://groupfive.co" target="_blank" rel="noopener noreferrer">
+             {" "} GroupFive Intake Site{" "}
+           </a> */}
+           
+           {/* </div> */}
+         </div>
+          {/* <a href={casestudy} target="_blank" style={{ maxWidth: '400%', maxHeight: '600%' }}> <Product img={groupfive} /> </a> */}
+       </div>
+
+
+
       <div className="p-list">
           <div className="p-des">
             <h2 className="p-title"> Habble  </h2> 
             <ul className="p-li">
                <li> <div>  * Improve speaking skills with AI    {" "}   </div></li> 
               <li>  * Chat GPT API</li>
-              <li> * Designed by me </li> 
+              <li> * Design Lead </li> 
             </ul>
             <div className="a-link">
          
@@ -85,7 +115,7 @@ export const Productlist = () => {
             <ul className="p-li">
               <li> * Local Group Hangouts</li>
               <li> * Twilio API waitList system</li>
-              <li> * Designed, co-founded</li>
+              <li> * Design Lead, co-founded</li>
             </ul> 
             <div className="a-link">
             <Link to="/image">View Case Study</Link>
