@@ -45,3 +45,12 @@
   .p-list2 img {
     max-width: 100%;
   }
+
+
+  @media only screen and (max-width: 600px) {
+
+  .p-li3 {
+    font-size: 1.3vh;
+    outline: none;
+  }
+  }

@@ -157,17 +157,17 @@ a {
   width: auto;
   font-size: 1.5vh;
   margin: 2% 15%;
+  outline: none;
   border-radius: 1em;
-  outline: solid 0.1em #212121;
 }
 
 a:hover {
-  color: #94b1fa; 
-  background-color: transparent;
+  color: beige
 }
 
 .a-link:hover {
-  background-color: transparent;
+  color: beige;
+  background-color: #f52569cc;
   transition-duration: 0.3s;
 }
 
@@ -186,6 +186,7 @@ a:hover {
   flex-direction: column-reverse;
   justify-content: space-between;
   width: fit-content;
+  margin-bottom: 10%;
 }
 
 .p-des {
@@ -196,6 +197,7 @@ a:hover {
     display: flex;
     justify-content: space-between;
     flex-direction: column;
+  padding-bottom: 5%;
 }
 
 .casestudy img {
