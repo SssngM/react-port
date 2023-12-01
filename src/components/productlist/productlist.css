@@ -138,6 +138,10 @@ a:hover {
 }
 
 @media only screen and (max-width: 600px) {
+
+.pl {
+  padding-top: 10%;
+}
 a {
   font-size: 1.3vh;
   text-decoration: none;
