@@ -102,6 +102,7 @@ a {
   text-align: left;
   margin-bottom: 5%;
   margin-left: 5%;
+  width: fit-content;
 }
 
 .a-link:hover {
@@ -123,14 +124,15 @@ a:hover {
   width: 30vmin;
 }
 
-/* .custom-link1 { 
-  width: 1.5rem;
-  height: 1.5rem;
+.custom-link1 { 
   position: absolute;
   margin:9%;
   margin-top:3%;
-  background-color:rgb(0 0 0)
-} */
+  background-color:rgb(0 0 0);
+  border-radius: 1em;
+  outline: solid 0.1em #212121;
+  padding: 0 5%;
+}
 
 .custom-link {
   all: unset;
@@ -146,7 +148,22 @@ a {
 .a-link {
   padding:1%;
   text-align: center;
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: space-between;
+  width: auto;
+  margin: 2% 15%;
 }
+
+a:hover {
+  color: #94b1fa; 
+  background-color: transparent;
+}
+.a-link:hover {
+  color: #94b1fa; 
+  background-color: transparent;
+}
+
 
 .port {
   font-size: 2vh;
@@ -167,11 +184,12 @@ a {
 
 .p-des {
   font-size: 1.2vw;
-  margin: 0% 25% 0%;
-  align-items: strech;
   color: rgb(98, 97, 97);
-  /* width: 26vw; */
-  width: auto;
+    width: auto;
+    justify-content: center;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
 }
 
 .casestudy img {

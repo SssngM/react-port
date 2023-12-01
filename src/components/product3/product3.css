@@ -29,6 +29,9 @@
   background-color: rgb(247, 247, 244);
   color: black;
   outline: solid rgb(247, 247, 244);;
+  border-radius: 0.8em;
+  padding: 1% 4%;
+  font-size: 2vh;
 }
 
   .p-title2 {

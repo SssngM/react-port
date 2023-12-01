@@ -56,7 +56,7 @@ export const Productlist = () => {
              <li> * Designed with team</li>
            </ul> 
            <div className="a-link">
-           <a href="">coming soon</a>
+           <a href="">Coming soon</a>
            </div>
            {/* <div className="a-link"> */}
            {/* <a href="https://groupfive.co" target="_blank" rel="noopener noreferrer">
