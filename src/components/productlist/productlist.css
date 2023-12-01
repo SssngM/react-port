@@ -153,13 +153,11 @@ a {
   width: auto;
   margin: 2% 15%;
   border-radius: 1em;
-  
 }
 
 a:hover {
   color: #94b1fa; 
   background-color: transparent;
-  border-radius: 1em;
 }
 
 .a-link:hover {
