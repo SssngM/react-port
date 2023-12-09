@@ -83,7 +83,7 @@ export const Productlist = () => {
             <Link to="/image2"> View Case Study</Link>
             </div> 
             <div className="a-link">
-              <a href="https://habble.vercel.app/" target="_blank">
+              <a href="https://habble-chat.vercel.app/" target="_blank">
                 {" "}
                 Habble Site
               </a>
