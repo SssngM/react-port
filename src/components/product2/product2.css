@@ -1,9 +1,9 @@
 video {
-    width: 55vw;
-    height: 57vmin;
+    width: 45vw;
+    height: 50vmin;
 }
 
-.p-video{
+.p-video {
     width: 48vw;
     height: 50vmin;
     overflow: scroll;
@@ -12,6 +12,10 @@ video {
     filter: none;
     margin-right: 3%;
   }
+
+  /* .p-video2 {
+    width: 55vw;
+  } */
 
 .p-video:hover {
     border: 2px solid #8298ff75;

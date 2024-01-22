@@ -14,6 +14,7 @@ import todolist from "../../imges/todolist.png";
 import tech from "../../imges/tech.png";
 import Vueport from "../../imges/vue-port.png";
 import slprecoding from "../../imges/slprecoding.mov";
+import compassProto from "../../imges/compassProto.mov";
 import groupfive from "../../imges/groupfive.png";
 import cover1 from "../../imges/cover1.jpg"
 import comSign from "../../imges/comSign.jpg"
@@ -44,7 +45,8 @@ export const Productlist = () => {
       <div className="p-list" style={{ backgroundImage:`url(${mesh})`, maxWidth: '100%',backgroundSize:'cover', backgroundRepeat: 'no-repeat',   overflow: 'hidden'}} >
        
    
-       <Product img={comSign} /> 
+       {/* <Product img={comSign} />  */}
+       <Product2 compassProto={compassProto}/>
 
          <div className="p-des">
          
