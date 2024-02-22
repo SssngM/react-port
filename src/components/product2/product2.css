@@ -18,7 +18,7 @@ video {
   } */
 
 .p-video:hover {
-    border: 2px solid #8298ff75;
+    border: 2px solid #6b6b6b3f;
 }  
 
 @media only screen and (max-width: 400px) {

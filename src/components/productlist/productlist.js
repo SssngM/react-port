@@ -38,19 +38,22 @@ export const Productlist = () => {
   
   return (
     <div className="pl">
-    
+
       <h3 className="port"> PROJECTS </h3>
       <div className="products">
 
-      <div className="p-list" style={{ backgroundImage:`url(${mesh})`, maxWidth: '100%',backgroundSize:'cover', backgroundRepeat: 'no-repeat',   overflow: 'hidden'}} >
+
+      <div className="p-list" style={{maxWidth: '100%',backgroundSize:'cover', backgroundRepeat: 'no-repeat',   overflow: 'hidden'}} >
        
-   
+
+
+
        {/* <Product img={comSign} />  */}
        <Product2 compassProto={compassProto}/>
 
          <div className="p-des">
          
-           <h2 className="p-title"> Compass </h2>
+           <div className="p-title"> COMPASS </div>
 
            <ul className="p-li">
              <li> * SF School management platform</li>
@@ -58,7 +61,7 @@ export const Productlist = () => {
              <li> * Designed with team</li>
            </ul> 
            <div className="a-link">
-           <a href="">Coming soon</a>
+           <a href="">Coming Soon</a>
            </div>
            {/* <div className="a-link"> */}
            {/* <a href="https://groupfive.co" target="_blank" rel="noopener noreferrer">
@@ -70,11 +73,11 @@ export const Productlist = () => {
           {/* <a href={casestudy} target="_blank" style={{ maxWidth: '400%', maxHeight: '600%' }}> <Product img={groupfive} /> </a> */}
        </div>
 
-
+{/* <hr/> */}
 
       <div className="p-list">
           <div className="p-des">
-            <h2 className="p-title"> Habble  </h2> 
+            <div className="p-title"> HABBLE  </div> 
             <ul className="p-li">
                <li> <div>  * Improve speaking skills with AI    {" "}   </div></li> 
               <li>  * Chat GPT API</li>
@@ -104,15 +107,16 @@ export const Productlist = () => {
 
         </div>
 
+        {/* <hr/> */}
 
-        <div className="p-list" style={{ backgroundImage:`url(${mesh})`, maxWidth: '100%',backgroundSize:'cover', backgroundRepeat: 'no-repeat'}} >
+        <div className="p-list" style={{ maxWidth: '100%',backgroundSize:'cover', backgroundRepeat: 'no-repeat'}} >
        
         <Link to="/image" className="custom-link">
         <Product img={groupfive} /> 
         </Link>
           <div className="p-des">
           
-            <h2 className="p-title"> Group Five </h2>
+            <div className="p-title"> GROUP FIVE </div>
 
             <ul className="p-li">
               <li> * Local Group Hangouts</li>
@@ -132,9 +136,11 @@ export const Productlist = () => {
            {/* <a href={casestudy} target="_blank" style={{ maxWidth: '400%', maxHeight: '600%' }}> <Product img={groupfive} /> </a> */}
         </div>
 
+        {/* <hr/> */}
+
         <div className="p-list" >
           <div className="p-des">
-            <h2 className="p-title"> Tech Girls Social </h2>
+            <div className="p-title"> TECH GIRLS SOCIAL</div>
             <ul className="p-li">
               <li> * Launching non-profit SF</li>
               <li> * Organize 2500+ members </li>
@@ -161,18 +167,18 @@ export const Productlist = () => {
         </div>
 
 
+{/* <hr/> */}
 
 
 
 
-
-        <div className="p-list" style={{ backgroundImage:`url(${mesh})`, maxWidth: '100%',backgroundSize:'cover', backgroundRepeat: 'no-repeat'}}>
+        <div className="p-list" style={{ maxWidth: '100%',backgroundSize:'cover', backgroundRepeat: 'no-repeat'}}>
           <Product2 slprecoding={slprecoding}/>
           <div className="p-des">
-            <h2 className="p-title"> GitLab </h2>
+            <div className="p-title"> GitLab </div>
             <ul className="p-li">
               <li> * Slippers(Pajamas)UI Design System</li>
-              <li> * Completed tickets as a Frontend Engineer</li>
+              <li> * Completed tickets as a UX Engineer</li>
               <li> * Vue.js, SASS, Storybook  </li>
             </ul> 
             <div className="a-link">
@@ -185,13 +191,16 @@ export const Productlist = () => {
         </div>
       </div>
 
+
+      {/* <hr/> */}
+
       <div className="products2"> 
         <div className="p-list2">
         <Product3 img2={sweet} />
           <div className="p-des2">
-            <h2 className="p-title2"> Sweet Store Project </h2>
+            <h2 className="p-title2"> SWEET STORE PROJECT </h2>
             <div className="p-li2">
-              <div> Personal toy project  </div>
+              <div> UX enginerring project  </div>
               <div> Javscript, React, Router, Boostrap</div>
             </div> 
 
@@ -213,9 +222,9 @@ export const Productlist = () => {
         <div className="p-list2">
           <Product3 img2={Vueport} className="p2"/>
           <div className="p-des2">
-            <h2 className="p-title2"> <div> Book Finder,</div>Hackathon Team Project </h2>
+            <h2 className="p-title2"> HACKATON TEAM PROJECT </h2>
             <div className="p-li2">
-              <div> Team project </div>
+              <div> Book Finder</div>
               <div> Vue.js, SCSS, Google book API</div>
             </div> 
             <br></br>
@@ -229,9 +238,8 @@ export const Productlist = () => {
         <div className="p-list2">
         <Product3 img2={todolist} className="p2"/>
           <div className="p-des2">
-            <h2 className="p-title2"> To Do List Project </h2>
+            <h2 className="p-title2"> TO DO LIST </h2>
             <div className="p-li2">
-              <div> Personal project </div>
               <div> Javscript, React </div>
               <div>log in, add, edit, delete functions</div>
             </div>   

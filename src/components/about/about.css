@@ -2,7 +2,7 @@ h3 {
   text-align: center;
   font-size: 2vw;
   margin: 0;
-  color: white;
+  color: rgb(60, 60, 60);
   padding-bottom: 3%;
 }
 
@@ -31,7 +31,7 @@ h4 {
 .a-left-title {
   font-size: 2vw;
   margin: 3%;
-  color: rgb(149, 214, 214);
+  color: rgb(131 95 137);
 }
 .a-left-wrapper {
   margin: 3% 3% 10% 3%;

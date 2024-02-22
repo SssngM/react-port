@@ -8,7 +8,7 @@ export default function About() {
       <div className="port">ABOUT ME</div>
       <div className="all">
         <div className="a-left">
-          <div className="a-left-title"> Community Builder</div>
+          <div className="a-left-title"> Community Builder</div> 
           <div div className="a-left-wrapper">
             
           Co-organizing the launch of a non-profit initiative aimed 
@@ -23,10 +23,10 @@ export default function About() {
           Experienced in visual design with a passion for new features.
           </div> 
 
-          <div className="a-left-title">Frontend coding skills</div>
+          <div className="a-left-title">Frontend Coding Skills</div>
           <div className="a-left-wrapper">
         <div> Enjoy delving into details</div>
-        <div> Clear vision for making things happe.</div>
+        <div> Clear vision for making things happen.</div>
         </div>
         </div>
 
