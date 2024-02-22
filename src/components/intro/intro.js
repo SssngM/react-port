@@ -70,11 +70,11 @@ function Intro(props) {
     </div>
     <div>
     <div className="title-item">PRODUCT DESIGNER</div> 
-    <div className="title-item">UX engineering SKILLS</div>
+    <div className="title-item">UX ENGINEERING SKILLS</div>
     <h2 className="i-name"> SEUNG YOO</h2>
     <div className="i-title">
 
-              <div className="title-sub">IT'S NOT BEING SMART, IT'S JUST THAT STAY WITH PROBLEM LONGER   -ALBERT EINSTEIN </div>
+              <div className="title-sub">IT'S NOT I AM SMART, IT'S JUST THAT I STAY WITH PROBLEM LONGER <br/>  -ALBERT EINSTEIN </div>
             {/* <div className="title-sub">-ALBERT EINSTEIN </div> */}
           </div>
     </div>

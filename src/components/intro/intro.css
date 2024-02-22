@@ -39,7 +39,7 @@ button:hover {
 
 .intro1 {
   height: 38vw;
-  padding-bottom: 5%;
+  padding-bottom: 10%;
   background-color: #ebe1e4;
   padding-top: 3%;
 }
@@ -112,9 +112,8 @@ button:hover {
 }
 
 .title-sub {
-  font-size: 0.7em;
+  font-size: 1em;
   text-align: left;
-  margin-top:1%;
  padding-bottom: 10%;
 }
 /* .i-right {
