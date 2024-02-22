@@ -20,7 +20,7 @@ button {
 }
 button:hover {
   color: #dfff5d;
-  transform: scale(1.1);
+  transform: scale(1.2);
 }
 
 .btn1 {
@@ -53,7 +53,8 @@ button:hover {
   color:rgb(42 255 230);
 }
 .resume:hover {
-  background-color: ;
+  background-color:
+
 }
 .i-left {
   display: flex;
