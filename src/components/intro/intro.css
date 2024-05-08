@@ -39,8 +39,8 @@ button:hover {
 
 
 .intro1 {
-  height: 38vw;
-  padding-bottom: 10%;
+  height: 20vw;
+  padding-bottom: 5%;
   background-color: #ebe1e4;
   padding-top: 3%;
 }
@@ -57,7 +57,7 @@ button:hover {
   background-color:
 
 }
-.i-left {
+/* .i-left {
   display: flex;
   margin-left: 52%;
   margin-top: 10%;
@@ -66,46 +66,82 @@ button:hover {
   position: absolute;
   background-color: transparent;
   flex-direction: column;
-}
+} */
 
+.i-left {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .i-left-wrapper {
   /* padding-top: 10%; */
   margin:0;
   /* display: flex; */
   /* align-items: center;
   justify-content: center; */
-  display: flex;
-  flex-direction: row;
-}
-
-.titleSec {
-  margin-top:15%;
-  display: flex;
-  justify-content: center;
-	align-content: center;
-	align-items: center;
-}
-.i-hello {
-  font-size: 1.5vw;
-}
-.i-name {
-  margin: 0;
-  font-size: 10vw;
-  position: absolute;
-  color: rgb(38, 38, 38);
-  /* padding-top:3%; */
-  padding-left:1%;
-  margin-top: -3%;
-  text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  
 }
 
 .i-title {
   color: rgb(43, 43, 43);
   font-size: 1.5vw;
-  position: absolute;
-  margin-top: 22%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 
 }
+
+.title {
+  height: 14vw;
+  overflow: hidden;
+}
+
+.titleSec {
+  /* margin-top:15%; */
+  /* display: flex; */
+  justify-content: center;
+	align-content: center;
+	align-items: center;
+  animation: move 3s ease-in-out infinite alternate;
+  height: 310%;
+}
+.i-name {
+  margin: 0;
+  font-size: 10vw;
+  /* position: absolute; */
+  color: rgb(38, 38, 38);
+  /* padding-top:3%; */
+  padding-left:1%;
+  margin-top: -3%;
+  text-align: left;
+  display: flex;
+  height: 15vw;
+}
+
+@keyframes move {
+  10% {
+    transform: translateY(-0px);
+  }
+  40% {
+    transform: translateY(-200px);
+  }
+  /* 75% {
+    transform: translateY(-250px);
+  } */
+  100% {
+    transform: translateY(-400px);
+  }
+}
+ 
+.i-hello {
+  font-size: 1.5vw;
+}
+
+
+
 
 .title-item {
 	position: absolute;		
@@ -116,9 +152,10 @@ button:hover {
 
 .title-sub {
 
-  text-align: center;
-
-
+  text-align: left;
+  padding-top: 3%;
+  font-size: 3vw;
+  padding-left:3%;
 }
 /* .i-right {
   flex: 1;

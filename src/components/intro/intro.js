@@ -16,7 +16,7 @@ function Intro(props) {
      {/* style={{ backgroundImage:`url(${background})`, maxWidth: '100%',backgroundSize:'cover', backgroundRepeat: 'no-repeat'}}>
     {/* <div> */}
     <div>
-   <div className="bg-words"> 
+    {/* <div className="bg-words"> 
     <button className="btn3">USABILITY  </button>  <button className="btn2"> WIREFRAME  </button> <button className="btn3"> USER-RESEARCH </button>  <button className="btn2"> USER-FLOW </button>  
     <button className="btn1">ACCESSIBILITY  </button>  <button className="btn2"> ANALYSIS  </button> <button className="btn3"> TESTING </button>  <button className="btn2">PERSONA</button> 
     <button className="btn1">JOURNEY  </button>  <button className="btn2"> EMPATHY  </button> <button className="btn3"> ITERATIVE </button>  <button className="btn4">HIERARCHY</button> 
@@ -33,24 +33,14 @@ function Intro(props) {
     <button className="btn4">PIVOT  </button>  <button className="btn3"> TREND  </button> <button className="btn2"> SUSTAINABLE </button>  <button className="btn1">STORYTELLING</button>
     <button className="btn4">CRAFTSMANSHIP  </button>  <button className="btn3"> INTUITIVE  </button> <button className="btn2"> BRAND </button>  <button className="btn2">COLOR SCHEMES</button>
     <button className="btn4">UI ELEMENTS  </button>  <button className="btn3"> LAYOUT  </button> <button className="btn2"> BUTTON</button>  <button className="btn1"> STYLES </button>
-       <button className="btn1">JOURNEY  </button>  <button className="btn2"> EMPATHY  </button> <button className="btn3"> ITERATIVE </button> 
-    
+    <button className="btn1">JOURNEY  </button>  <button className="btn2"> EMPATHY  </button> <button className="btn3"> ITERATIVE </button> 
+     */}
     {/* <div className="resume"><a href = {Pdf} target = "_blank"  >Resume</a></div> */}
       <div className="i-left">
       {/* <div className="resume"><a href = {Pdf} target = "_blank">Resume</a></div> */}
-        <div className="i-left-wrapper">
         {/* <div className="i-hello">Hello! I am </div> */}
           {/* <h2 className="i-name"> Seung Yoo</h2> */}
-        </div>
-        </div>
-          {/* <div className="i-title">
-            <div className="title-item">Product Designer </div> 
-              <div className="title-sub">Frontend coding skills</div>
-            <div className="title-sub">San Francisco Based </div>
-          </div> */}
-
-   
-
+      </div>
       <div className="i-right">
 
         {/* <img src={Introimg} className="intro-img" /> */}
@@ -58,26 +48,34 @@ function Intro(props) {
           <source src={myVideo} type="video/mp4"></source>
         </video> */}
         {/* <img src={Ani} alt="loading..." /> */}
-      </div>
+      {/* </div> */}
     </div>
-    <div className="i-lines">
+    {/* <div className="i-lines">
       <div className="intro-line"></div>
       <div className="intro-line0"></div>
       <div className="intro-line1"></div>
       <div className="intro-line2"></div>
       <div className="intro-line3"></div>
+    </div> */}
     </div>
-    </div>
-    <div className="titleSec">
-    <div className="title-item">PRODUCT DESIGNER</div> 
-    {/* <div className="title-item">UX ENGINEERING SKILLS</div> */}
-    <h2 className="i-name"> SEUNG YOO</h2>
-    <div className="i-title">
 
-          <div className="title-sub">"It’s not I am smart, It’s just that I stay with problem longer." - ALBERT EINSTEIN  </div>
+    {/* <div className="title-item">PRODUCT DESIGNER</div>  */}
+    {/* <div className="title-item">UX ENGINEERING SKILLS</div> */}
+    
+    <div className="i-title">
+    <div className="title">
+    <div className="titleSec">
+    <h2 className="i-name"> SEUNG YOO</h2>
+    <h2 className="i-name"> PRODUCT DESIGNER</h2>
+    <h2 className="i-name"> UX ENGINEER</h2>
+    </div>
+    </div>
+    </div>
+
+
+          <div className="title-sub"> Easy, Simple, Fun  </div>
             {/* <div className="title-sub">-ALBERT EINSTEIN </div> */}
-    </div>
-    </div>
+
   </div>
   );
 }

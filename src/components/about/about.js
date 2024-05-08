@@ -11,8 +11,8 @@ export default function About() {
           <div className="a-left-title"> Community Builder</div> 
           <div div className="a-left-wrapper">
             
-          Co-organizing and networking
-            <div>at the local SF tech communities</div>
+          SF Tech meetup Co-organizing and networking
+            <div>Growth and partnership</div>
           </div>
           {/* <div className="a-left-wrapper">
             with diversity equity & inclusion

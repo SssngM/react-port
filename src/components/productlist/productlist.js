@@ -116,7 +116,7 @@ export const Productlist = () => {
         </Link>
           <div className="p-des">
           
-            <div className="p-title"> GROUP FIVE </div>
+            <div className="p-title"> GROUP5</div>
 
             <ul className="p-li">
               <li> * Local Group Hangouts</li>
@@ -140,9 +140,9 @@ export const Productlist = () => {
 
         <div className="p-list" >
           <div className="p-des">
-            <div className="p-title"> TECH GIRLS SOCIAL</div>
+            <div className="p-title"> TGS</div>
             <ul className="p-li">
-              <li> * Launching non-profit SF</li>
+              <li> * Tech Girls Social</li>
               <li> * Organize 2500+ members </li>
               <li> * Buliding the web site</li>
               <li> * Designed & Engineered  </li>
@@ -175,7 +175,7 @@ export const Productlist = () => {
         <div className="p-list" style={{ maxWidth: '100%',backgroundSize:'cover', backgroundRepeat: 'no-repeat'}}>
           <Product2 slprecoding={slprecoding}/>
           <div className="p-des">
-            <div className="p-title"> GitLab </div>
+            <div className="p-title"> GitLab, Intern </div>
             <ul className="p-li">
               <li> * Slippers(Pajamas)UI Design System</li>
               <li> * Completed tickets as a UX Engineer</li>
