@@ -15,8 +15,8 @@ import tech from "../../imges/tech.png";
 import Vueport from "../../imges/vue-port.png";
 import slprecoding from "../../imges/slprecoding.mov";
 import compassProto from "../../imges/compassProto.mov";
-import groupfive from "../../imges/groupfive.png";
-import cover1 from "../../imges/cover1.jpg"
+import groupfive from "../../imges/GroupF.png";
+import cover1 from "../../imges/cover1.png"
 import comSign from "../../imges/comSign.jpg"
 
 import mesh from "../../imges/mesh.jpg"

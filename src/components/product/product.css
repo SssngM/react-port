@@ -1,16 +1,17 @@
 .p{
-  width: 40vw;
+  width: 45vw;
   height: 60vmin;
   overflow: scroll;
-  border:2px solid rgba(227, 227, 227, 0.041);
+  /* border:3px solid rgb(255, 255, 255); */
   border-radius: 10px;
 
   /* filter: opacity(70%); */
 }
 
 .p:hover{
-  border: 2px solid #a3a2a226;
-
+  /* border: 3px solid #ffffff9f; */
+  /* opacity: 50%; */
+  /* background-color: rgb(153, 243, 50); */
 }
 
 img:hover {
@@ -22,8 +23,8 @@ img:hover {
 @media only screen and (max-width: 400px)  {
   .p {
     width: 85vw;
-    overflow: scroll;
-    border: 2px solid rgb(183, 226, 226);
+    overflow: ;
+        border: 2px solid  #ffffff;
     border-radius: 10px;
     filter: opacity(100%);
   }

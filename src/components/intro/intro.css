@@ -251,7 +251,10 @@ button:hover {
   .i {
     display: flex;
   }
-  
+  .intro1 {
+    padding-left: 8%;
+    padding-top: 8%;
+  }
   .intro-img {
     display: block;
     margin-left: -70%;
@@ -266,9 +269,6 @@ button:hover {
   animation: 3s linear 1s slidein infinite alternate-reverse;
 }
 
-  .i {
-    display: flex;
-  }
 
   .i-left {
     margin-left:10%;
@@ -287,7 +287,20 @@ button:hover {
     padding-top: -5%;
   } */
 
-
+  @keyframes move {
+    10% {
+      transform: translateY(-0px);
+    }
+    40% {
+      transform: translateY(-50px);
+    }
+    /* 75% {
+      transform: translateY(-250px);
+    } */
+    100% {
+      transform: translateY(-100px);
+    }
+  }
   
   
 }
